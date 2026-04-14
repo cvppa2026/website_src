@@ -1,0 +1,7 @@
+# Keynote Speakers
+
+### Fumio Okura
+Fumio Okura is an Associate Professor at the University of Osaka (Japan). He received his M.Sc. and Ph.D. in engineering from the Nara Institute of Science and Technology in 2011 and 2014, respectively. His research lies at the intersection of computer vision and computer graphics, with recent work focusing on plant phenotyping. He has received several awards, including the IPSJ/IEEE Computer Society Young Computer Researcher Award.
+
+### Susie Robinson
+Susie Robinson leads EMPHASIS, the pan-European Research Infrastructure for plant phenotyping, a globally significant network of distributed infrastructure, enabling services and expertise supporting research and innovation for new and improved crops, healthier food, more sustainable agricultural practice and development of novel plant-based bio-products. Susie also has strong interests and expertise in corporate governance, with senior and executive roles in the UK and South Australian Governments in the portfolios of innovation, research, higher education, treasury and finance, and public sector performance.
