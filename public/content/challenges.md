@@ -10,6 +10,15 @@ The dataset features high-resolution RGB images taken under controlled lighting 
 
 From a computer vision perspective, this dataset enables research on fine-grained phenological object detection under occlusion, significant temporal appearance changes, and notable domain shifts between sites. Baseline results show that early phenological stages are particularly tough for standard detection models, highlighting the need for better representations, robustness, and generalisation strategies.
 
+<div class="not-prose flex my-10">
+  <a href="https://www.codabench.org/competitions/14963/" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded">
+    🏆 Participate in this Challenge
+  </a>
+</div>
+
+
+Authors are encouraged to submit a full paper or extended abstract accompanying their challenge results. For more information, visit the [Call for Papers](/CfP) page.
+
 ## Bonn Challenge
 
 Pollinators play a vital role in ecosystem stability and agricultural productivity, yet their populations are under increasing pressure. Automated monitoring of pollinators offers valuable insights into their behavioural patterns and species diversity, and when combined with farmland data, can reveal important ecological relationships between pollinator activity and agricultural land use. 
