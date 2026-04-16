@@ -9,7 +9,7 @@ We bring together a diverse organising team spanning career stages, institutions
 | **Ronja Güldenring** | Technical University of Denmark (DTU) | Co-Chair | [Email](mailto:ronjag@dtu.dk) |
 | **[Valerio Giuffrida](http://www.valeriogiuffrida.academy)** | University of Nottingham, UK | Co-Chair | [Email](mailto:valerio.giuffrida@nottingham.ac.uk) |
 | **Zane Hartley** | University of Nottingham, UK | Paper Chair | [Email](mailto:zane.hartley@nottingham.ac.uk) |
-| **Yancong Lin** | University of Nottingham, UK | Paper Chair | |
+| **[Yancong Lin](https://yanconglin.github.io/)** | University of Nottingham, UK | Paper Chair | [Email](mailto:[yancong.lin@nottingham.ac.uk]) |
 | **Mohamed Farag** | University of Bonn, Germany | Challenges Chair | |
 | **Feng Chen** | University of Edinburgh, UK | Communication Chair | [Email](mailto:feng.chen@ed.ac.uk) |
 
