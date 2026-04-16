@@ -27,6 +27,12 @@ Specific topics of interest include, but are not limited to, the following:
 | Author Notification | August 14th, 2026 |
 | Camera-Ready Deadline | TBD |
 
+<div class="not-prose flex my-10">
+  <a href="https://openreview.net/group?id=thecvf.com/ECCV/2026/Workshop/CVPPA" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded">
+    📝 Submit your paper or extended abstract here
+  </a>
+</div>
+
 ## Papers and extended abstracts
 
 Accepted full papers will be included in the ICCV Workshop Proceedings. Accepted extended abstracts will published on this website.
@@ -34,9 +40,9 @@ Accepted full papers will be included in the ICCV Workshop Proceedings. Accepted
 
 ## Author Information
 
-Authors should comply with [ECCV 2026 Submission Guidelines](https://eccv.ecva.net/Conferences/2026/AuthorContributionTypes) to format their full paper, extended abstract, or challenge technical report. Submission are handled via [OpenReview](). The peer-review process is double blind, as usual, in order to ensure unbiased reviews and highest paper quality.
+Authors should comply with [ECCV 2026 Submission Guidelines](https://eccv.ecva.net/Conferences/2026/AuthorContributionTypes) to format their full paper, extended abstract, or challenge technical report. Submission are handled via [OpenReview](https://openreview.net/group?id=thecvf.com/ECCV/2026/Workshop/CVPPA). The peer-review process is double blind, as usual, in order to ensure unbiased reviews and highest paper quality.
 
-Paper registration is performed by registering as a user with [OpenReview]() and entering a paper title and abstract. This will result in the allocation of a `paper ID`, which indicates registration is completed and should be used in preparation of the review copy. You will be able to make edits and upload new paper drafts until the final deadline. Submitted papers should be prepared according to the published specification for formatting and style. Please be sure to read both the formatting instructions and policies before submission. Please refer to [ECCV 2026 FAQ](https://eccv.ecva.net/Conferences/2026/FAQs) for common questions.
+Paper registration is performed by registering as a user with [OpenReview](https://openreview.net/group?id=thecvf.com/ECCV/2026/Workshop/CVPPA) and entering a paper title and abstract. This will result in the allocation of a `paper ID`, which indicates registration is completed and should be used in preparation of the review copy. You will be able to make edits and upload new paper drafts until the final deadline. Submitted papers should be prepared according to the published specification for formatting and style. Please be sure to read both the formatting instructions and policies before submission. Please refer to [ECCV 2026 FAQ](https://eccv.ecva.net/Conferences/2026/FAQs) for common questions.
 
 ## Submission Guidelines
 
@@ -68,7 +74,7 @@ If there are papers that may appear to violate any of these conditions, it is th
 
 ### Camera Ready Copy
 
-Camera-ready submission for accepted papers will be submitted on [OpenReview](). A transfer of copyright to IEEE will be required for camera-ready submission. Each published paper must have at least one author registered for the workshop under an AUTHOR registration (virtual Registrations will not cover paper submissions). Papers for which we have no registered authors will be removed from the workshop.
+Camera-ready submission for accepted papers will be submitted on [OpenReview](https://openreview.net/group?id=thecvf.com/ECCV/2026/Workshop/CVPPA). A transfer of copyright to IEEE will be required for camera-ready submission. Each published paper must have at least one author registered for the workshop under an AUTHOR registration (virtual Registrations will not cover paper submissions). Papers for which we have no registered authors will be removed from the workshop.
 
 For each accepted full paper authors should upload:
 * final camera-ready paper (in PDF format),

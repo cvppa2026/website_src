@@ -4,11 +4,22 @@ This workshop will showcase the challenges raised by working on computer vision 
 
 The workshop will be held in conjunction with the [European Conference on Computer Vision (ECCV) 2026](https://eccv.ecva.net/Conferences/2026). For more information regarding the venue, please go to the [Programme page](/programme).
 
+<div class="not-prose flex my-10">
+  <a href="https://openreview.net/group?id=thecvf.com/ECCV/2026/Workshop/CVPPA" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded">
+    📝 Submit your paper or extended abstract here
+  </a>
+</div>
+
+
 We recommend to register to the conference timely to avoid delays.
 
 <img src="http://media.eventhosts.cc/Conferences/ECCV2026/ECCV_2026_Logo.svg" alt="ECCV 2026 Logo" title="ECCV 2026" height="150px;">
 
 ## Updates
+
+> **16th April 2026**
+>
+> OpenReview paper submission portal now active.
 
 > **13th April 2026**
 >
