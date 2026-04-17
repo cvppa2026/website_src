@@ -19,10 +19,14 @@ From a computer vision perspective, this dataset enables research on fine-graine
 
 Authors are encouraged to submit a full paper or extended abstract accompanying their challenge results. For more information, visit the [Call for Papers](/CfP) page.
 
-## Bonn Challenge
+## BuzzSpot Challenge
 
-Pollinators play a vital role in ecosystem stability and agricultural productivity, yet their populations are under increasing pressure. Automated monitoring of pollinators offers valuable insights into their behavioural patterns and species diversity, and when combined with farmland data, can reveal important ecological relationships between pollinator activity and agricultural land use. 
+<img src="/images/buzzspot_challenge.png" alt="BuzzSpot Challenge" title="BuzzSpot Challenge" style="width:50%">
 
-This challenge addresses the detection of small objects (pollinators) on cluttered, visually complex backgrounds, which may be partially occluded or motion-blurred, pushing the limits of standard object detection approaches. 
+Pollinators play a vital role in ecosystem stability and agricultural productivity, yet their populations are under increasing pressure. Automated monitoring of pollinators offers valuable insights into their behavioural patterns and species diversity, and when combined with farmland data, can reveal important ecological relationships between pollinator activity and agricultural land use.
 
-The challenge dataset consists of 10k annotated instances of 1920x1080 RGB video frames, covering four pollinator categories (bees, bumblebees, hoverflies, and other insects) recorded across five farmland types (Phacelia, Maize, Pasture, and mixtures) on 11 different days, capturing a range of environmental and lighting conditions. Alongside each annotated detection frame, the dataset includes the five preceding video frames, enabling participants to incorporate temporal context into their models.
+This challenge addresses the detection of small objects (pollinators) on cluttered, visually complex backgrounds, which may be partially occluded or motion-blurred, pushing the limits of standard object detection approaches.
+
+The challenge dataset consists of 15k annotated instances of 1920x1080 RGB video frames, covering four pollinator categories (bees, bumblebees, hoverflies, and moths) recorded across 4 farmland types (Phacelia, Maize, Pasture, and a mixture) on 11 different days, capturing a range of environmental and lighting conditions. Alongside each annotated detection frame, the dataset includes the five preceding video frames, enabling participants to incorporate temporal context into their models.
+
+To participate in the challenge and more information, please email directly the challenge organisers at [buzzspot.challenge.cvppa@uni-bonn.de](mailto:buzzspot.challenge.cvppa@uni-bonn.de)

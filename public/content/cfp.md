@@ -35,7 +35,7 @@ Specific topics of interest include, but are not limited to, the following:
 
 ## Papers and extended abstracts
 
-Accepted full papers will be included in the ICCV Workshop Proceedings. Accepted extended abstracts will published on this website.
+Accepted full papers will be included in the ECCV 2026 Workshop Proceedings (ECCVW). Accepted extended abstracts will published on this website.
 
 
 ## Author Information
@@ -62,7 +62,7 @@ Authors may optionally upload supplementary material, which may include:
 
 ### Extended Abstracts
 
-The length **should not exceed 4 pages** excluding the references. Extended abstracts will appear (after peer review) on the CVPPA website, but will not be part of ICCVW 2025 proceedings. The same double blind rules apply (see above). As a guide, extended abstracts should follow a regular paper structure, though abbreviated. This should include an introduction, a description of the work undertaken, the results, and a conclusion.
+The length **should not exceed 4 pages** excluding the references. Extended abstracts will appear (after peer review) on the CVPPA website, but will not be part of the ECCV 2026 proceedings. The same double blind rules apply (see above). As a guide, extended abstracts should follow a regular paper structure, though abbreviated. This should include an introduction, a description of the work undertaken, the results, and a conclusion.
 
 ## Submission Policies
 
