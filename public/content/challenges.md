@@ -21,7 +21,7 @@ Authors are encouraged to submit a full paper or extended abstract accompanying 
 
 ## BuzzSpot Challenge
 
-<img src="/images/buzzspot_challenge.png" alt="BuzzSpot Challenge" title="BuzzSpot Challenge" style="width:50%">
+<img src="/images/challenges/buzzspot_challenge.png" alt="BuzzSpot Challenge" title="BuzzSpot Challenge" style="width:50%">
 
 Pollinators play a vital role in ecosystem stability and agricultural productivity, yet their populations are under increasing pressure. Automated monitoring of pollinators offers valuable insights into their behavioural patterns and species diversity, and when combined with farmland data, can reveal important ecological relationships between pollinator activity and agricultural land use.
 
