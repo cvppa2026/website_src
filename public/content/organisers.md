@@ -13,6 +13,13 @@ We bring together a diverse organising team spanning career stages, institutions
 | **Mohamed Farag** | University of Bonn, Germany | Challenges Chair | [Email](mailto:mibrahi2@uni-bonn.de) |
 | **[Feng Chen](https://fengchen025.github.io/)** | University of Edinburgh, UK | Communication Chair | [Email](mailto:feng.chen@ed.ac.uk) |
 
+## Challenges Organisers
+
+| Name | Affiliation | Challenge | Contact |
+|:---|:---|:---|:---|
+| **[David Rousseau](https://okina.univ-angers.fr/david-rousseau)** | Laboratoire Angevin de Recherche en Ingénierie des Systèmes, Université d’Angers, France	 | [PHENET Challenge](/challenges#phenet-challenge) | [Email](mailto:david.rousseau@univ-angers.fr) |
+| **Mohamed Farag** | University of Bonn, Germany | [BuzzSpot Challenge](/challenges#buzzspot-challenge) | [Email](mailto:mibrahi2@uni-bonn.de) |
+
 ## Advisory Committee
 
 | Name | Affiliation | Contact |
