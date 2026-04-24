@@ -18,7 +18,7 @@ We bring together a diverse organising team spanning career stages, institutions
 | Name | Affiliation | Challenge | Contact |
 |:---|:---|:---|:---|
 | **[David Rousseau](https://okina.univ-angers.fr/david-rousseau)** | Laboratoire Angevin de Recherche en Ingénierie des Systèmes, Université d’Angers, France	 | [PHENET Challenge](/challenges#phenet-challenge) | [Email](mailto:david.rousseau@univ-angers.fr) |
-| **Mohamed Farag** | University of Bonn, Germany | [BuzzSpot Challenge](/challenges#buzzspot-challenge) | [Email](mailto:mibrahi2@uni-bonn.de) |
+| **Lennart Reißner** | University of Bonn, Germany | [BuzzSpot Challenge](/challenges#buzzspot-challenge) | [Email](mailto:lreissner@uni-bonn.de) |
 
 ## Advisory Committee
 
