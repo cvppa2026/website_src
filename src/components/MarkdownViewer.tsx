@@ -63,6 +63,24 @@ export function MarkdownViewer({ filename, showToc = false }: MarkdownViewerProp
       });
   }, [filename]);
 
+  // Scroll to URL hash anchor after content has rendered
+  useEffect(() => {
+    if (loading || content === "") return;
+    const hash = window.location.hash;
+    if (!hash) return;
+    // Give React a tick to paint the rendered markdown
+    const id = hash.slice(1);
+    const tryScroll = (attempts: number) => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else if (attempts > 0) {
+        setTimeout(() => tryScroll(attempts - 1), 100);
+      }
+    };
+    setTimeout(() => tryScroll(5), 100);
+  }, [loading, content]);
+
   if (loading) {
     return (
       <div className="flex justify-center items-center py-20">
