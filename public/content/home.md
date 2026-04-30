@@ -17,7 +17,7 @@ We recommend to register to the conference timely to avoid delays.
 
 ## Updates
 
-> ** 30th April 2026**
+> **30th April 2026**
 >
 > Camera-ready set for accepted papers. To match ECCV 2026 deadlines, submissions deadline has been anticipated to July 3rd, 2026. Please find the updated calendar in the [Call for Papers](/cfp) page.
 
