@@ -43,7 +43,7 @@ export function MarkdownViewer({ filename, showToc = false }: MarkdownViewerProp
 
   useEffect(() => {
     setLoading(true);
-    fetch(`/content/${filename}`)
+    fetch(`/content/${filename}`, { cache: "no-cache" })
       .then((res) => {
         if (!res.ok) {
           throw new Error("Could not find the content file.");
@@ -111,39 +111,39 @@ export function MarkdownViewer({ filename, showToc = false }: MarkdownViewerProp
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeRaw]}
         components={{
-          h1: ({node, ...props}) => <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-8" {...props} />,
-          h2: ({node, children, ...props}) => {
+          h1: ({ node, ...props }) => <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-8" {...props} />,
+          h2: ({ node, children, ...props }) => {
             const extractText = (val: any): string => {
-                if (typeof val === 'string') return val;
-                if (Array.isArray(val)) return val.map(extractText).join('');
-                if (val && val.props && val.props.children) return extractText(val.props.children);
-                return '';
+              if (typeof val === 'string') return val;
+              if (Array.isArray(val)) return val.map(extractText).join('');
+              if (val && val.props && val.props.children) return extractText(val.props.children);
+              return '';
             }
             const textContent = extractText(children);
             const id = slugify(textContent);
             return <h2 id={id} className="text-2xl md:text-3xl font-bold mt-12 mb-6 pb-2 border-b border-slate-200 dark:border-slate-800 scroll-mt-24" {...props}>{children}</h2>;
           },
-          h3: ({node, ...props}) => <h3 className="text-xl md:text-2xl font-bold mt-8 mb-4" {...props} />,
-          p: ({node, ...props}) => <p className="text-base md:text-lg leading-relaxed mb-6 text-slate-700 dark:text-slate-300" {...props} />,
-          ul: ({node, ...props}) => <ul className="list-disc pl-6 mb-6 space-y-2 text-slate-700 dark:text-slate-300" {...props} />,
-          ol: ({node, ...props}) => <ol className="list-decimal pl-6 mb-6 space-y-2 text-slate-700 dark:text-slate-300" {...props} />,
-          li: ({node, ...props}) => <li className="pl-2" {...props} />,
-          a: ({node, ...props}) => <a className="font-medium text-blue-600 active:text-blue-500 dark:text-blue-400 transition-colors" {...props} />,
-          img: ({node, ...props}) => <img className="rounded-xl my-6 inline-block" {...props} />,
-          blockquote: ({node, ...props}) => <blockquote className="border-l-4 border-blue-500 pl-4 py-1 italic bg-slate-50 dark:bg-slate-900/50 rounded-r-lg my-6" {...props} />,
-          
-          table: ({node, ...props}) => (
+          h3: ({ node, ...props }) => <h3 className="text-xl md:text-2xl font-bold mt-8 mb-4" {...props} />,
+          p: ({ node, ...props }) => <p className="text-base md:text-lg leading-relaxed mb-6 text-slate-700 dark:text-slate-300" {...props} />,
+          ul: ({ node, ...props }) => <ul className="list-disc pl-6 mb-6 space-y-2 text-slate-700 dark:text-slate-300" {...props} />,
+          ol: ({ node, ...props }) => <ol className="list-decimal pl-6 mb-6 space-y-2 text-slate-700 dark:text-slate-300" {...props} />,
+          li: ({ node, ...props }) => <li className="pl-2" {...props} />,
+          a: ({ node, ...props }) => <a className="font-medium text-blue-600 active:text-blue-500 dark:text-blue-400 transition-colors" {...props} />,
+          img: ({ node, ...props }) => <img className="rounded-xl my-6 inline-block" {...props} />,
+          blockquote: ({ node, ...props }) => <blockquote className="border-l-4 border-blue-500 pl-4 py-1 italic bg-slate-50 dark:bg-slate-900/50 rounded-r-lg my-6" {...props} />,
+
+          table: ({ node, ...props }) => (
             <div className="overflow-x-auto my-8 rounded-lg shadow-sm border border-slate-200 dark:border-slate-700">
               <table className="min-w-full divide-y divide-slate-200 dark:divide-slate-700 text-left text-sm" {...props} />
             </div>
           ),
-          thead: ({node, ...props}) => <thead className="bg-slate-50 dark:bg-slate-800" {...props} />,
-          tbody: ({node, ...props}) => <tbody className="divide-y divide-slate-200 dark:divide-slate-700 bg-white dark:bg-slate-900" {...props} />,
-          tr: ({node, ...props}) => <tr className="hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors" {...props} />,
-          th: ({node, ...props}) => <th className="px-5 py-4 font-semibold text-slate-900 dark:text-slate-100 uppercase tracking-wider" {...props} />,
-          td: ({node, ...props}) => <td className="px-5 py-4 text-slate-700 dark:text-slate-300" {...props} />,
+          thead: ({ node, ...props }) => <thead className="bg-slate-50 dark:bg-slate-800" {...props} />,
+          tbody: ({ node, ...props }) => <tbody className="divide-y divide-slate-200 dark:divide-slate-700 bg-white dark:bg-slate-900" {...props} />,
+          tr: ({ node, ...props }) => <tr className="hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors" {...props} />,
+          th: ({ node, ...props }) => <th className="px-5 py-4 font-semibold text-slate-900 dark:text-slate-100 uppercase tracking-wider" {...props} />,
+          td: ({ node, ...props }) => <td className="px-5 py-4 text-slate-700 dark:text-slate-300" {...props} />,
 
-          code: ({node, className, children, ...props}: any) => {
+          code: ({ node, className, children, ...props }: any) => {
             const match = /language-(\w+)/.exec(className || '')
             const isMultiLine = String(children).includes('\n')
             if (match || isMultiLine) {
@@ -175,7 +175,7 @@ export function MarkdownViewer({ filename, showToc = false }: MarkdownViewerProp
       <div className="flex-1 w-full min-w-0">
         {MainContent}
       </div>
-      
+
       <div className="w-full md:w-64 lg:w-72 shrink-0 md:sticky md:top-24">
         <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800">
           <h4 className="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-4">On this page</h4>
@@ -184,19 +184,19 @@ export function MarkdownViewer({ filename, showToc = false }: MarkdownViewerProp
               const slug = slugify(heading.replace(/\*\*/g, ''));
               const isActive = activeHeading === slug;
               return (
-              <li key={i}>
-                <a 
-                  href={`#${slug}`} 
-                  className={`text-sm block transition-colors ${
-                    isActive 
-                      ? "font-bold text-blue-600 dark:text-blue-400" 
-                      : "font-medium text-slate-700 hover:text-blue-600 dark:text-slate-300 dark:hover:text-blue-400"
-                  }`}
-                >
-                  {heading.replace(/\*\*/g, '')}
-                </a>
-              </li>
-            )})}
+                <li key={i}>
+                  <a
+                    href={`#${slug}`}
+                    className={`text-sm block transition-colors ${isActive
+                        ? "font-bold text-blue-600 dark:text-blue-400"
+                        : "font-medium text-slate-700 hover:text-blue-600 dark:text-slate-300 dark:hover:text-blue-400"
+                      }`}
+                  >
+                    {heading.replace(/\*\*/g, '')}
+                  </a>
+                </li>
+              )
+            })}
           </ul>
         </div>
       </div>
