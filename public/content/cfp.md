@@ -20,11 +20,11 @@ Specific topics of interest include, but are not limited to, the following:
 
 | Action | Date |
 |:---|:---|
-| Paper Submission Deadline | July 3rd, 2026 |
-| Reviewers Assigned | July 10th, 2026 |
-| Reviews Due | July 24th, 2026 |
-| Author Notification | July 31st, 2026 |
-| Camera-Ready Deadline | August 7th, 2026 |
+| Paper Submission Deadline | July 10th, 2026 |
+| Reviewers Assigned | July 16th, 2026 |
+| Reviews Due | July 30th, 2026 |
+| Author Notification | August 5th, 2026 |
+| Camera-Ready Deadline | August 11th, 2026 |
 
 <div class="not-prose flex my-10">
   <a href="https://openreview.net/group?id=thecvf.com/ECCV/2026/Workshop/CVPPA" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded">
