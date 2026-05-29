@@ -29,4 +29,22 @@ This challenge addresses the detection of small objects (pollinators) on clutter
 
 The challenge dataset consists of 15k annotated instances of 1920x1080 RGB video frames, covering four pollinator categories (bees, bumblebees, hoverflies, and moths) recorded across 4 farmland types (Phacelia, Maize, Pasture, and a mixture) on 11 different days, capturing a range of environmental and lighting conditions. Alongside each annotated detection frame, the dataset includes the five preceding video frames, enabling participants to incorporate temporal context into their models.
 
-To participate in the challenge and more information, please email directly the challenge organisers at [buzzspot.challenge.cvppa@uni-bonn.de](mailto:buzzspot.challenge.cvppa@uni-bonn.de)
+<div class="not-prose flex my-10">
+  <a href="https://www.codabench.org/competitions/16441/" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded">
+    🏆 Participate in this Challenge
+  </a>
+</div>
+
+<div class="not-prose flex my-10">
+  <a href="https://phenoroam.phenorob.de/geonetwork/srv/eng/catalog.search#/metadata/e5fb8e49-cbdf-4846-af7d-044a92ef7fae" target="_blank" rel="noopener noreferrer" class="inline-block bg-orange-700 hover:bg-orange-800 text-white font-semibold py-2 px-4 rounded">
+    📥 Download the dataset here!
+  </a>
+</div>
+
+<div class="not-prose flex my-10">
+  <a href="https://github.com/lereiss/buzzspot-devkit" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded">
+    ⚙️ Get the challenge Dev Kit here!
+  </a>
+</div>
+
+For more information, please email directly the challenge organisers at [buzzspot.challenge.cvppa@uni-bonn.de](mailto:buzzspot.challenge.cvppa@uni-bonn.de)
