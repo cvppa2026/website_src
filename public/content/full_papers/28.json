@@ -1,0 +1,20 @@
+{
+    "affiliations": [
+        "University of Nottingham "
+    ],
+    "authors": [
+        {
+            "name": "Zihe Gao",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Zane K. J. Hartley",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Andrew P French",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "3D Part Segmentation for Reconstructed Plant Models via Targeted 2D-Guided Refinement"
+}

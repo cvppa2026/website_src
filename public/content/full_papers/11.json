@@ -1,0 +1,20 @@
+{
+    "affiliations": [
+        "University of Illinois at Urbana-Champaign "
+    ],
+    "authors": [
+        {
+            "name": "Kinjalk Parth",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Andrew D.B. Leakey",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Sebastian Varela",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "RootQuant-V2: Foundation-Model Root-Trait Regression from Minirhizotron Imagery"
+}

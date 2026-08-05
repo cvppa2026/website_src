@@ -1,0 +1,28 @@
+{
+    "affiliations": [
+        "Tokyo Denki University"
+    ],
+    "authors": [
+        {
+            "name": "Atsuya Sakai",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Shunsuke Shioya",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Shoki Fukatani",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Yuta Sato",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Akinori Hidaka",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Tile-Based Detection of Apple Tree Phenological Stages with Test-Time Augmentation and Enhanced Weighted Boxes Fusion"
+}

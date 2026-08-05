@@ -1,0 +1,20 @@
+{
+    "affiliations": [
+        "Università degli Studi di Modena e Reggio Emilia"
+    ],
+    "authors": [
+        {
+            "name": "Daniel Rossi",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Guido Borghi",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Roberto Vezzani",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "BoltNet: An Ultra-Lightweight Convolutional Network for On-Device Plant Species Identification"
+}

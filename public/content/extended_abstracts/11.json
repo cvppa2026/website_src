@@ -1,0 +1,16 @@
+{
+    "affiliations": [
+        "Universität Hohenheim"
+    ],
+    "authors": [
+        {
+            "name": "Johanna Vaske",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Anthony Stein",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Towards Neural Cellular Automata for Spectral Data Simulation of Symptomatic Crop Leaves"
+}

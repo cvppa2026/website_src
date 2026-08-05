@@ -1,0 +1,21 @@
+{
+    "affiliations": [
+        "Copenhagen University",
+        "Lund University"
+    ],
+    "authors": [
+        {
+            "name": "Markos Aivazoglou-Vounatsos",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Roberta Hunt",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Kim Steenstrup Pedersen",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Arable-500K: A Benchmark Dataset for Self-Supervised Vision in Arable Fields"
+}

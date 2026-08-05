@@ -1,0 +1,21 @@
+{
+    "affiliations": [
+        "FPT University",
+        "Korea University"
+    ],
+    "authors": [
+        {
+            "name": "Gia-Han Truong",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Luyl-Da Quach",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Khang Nguyen Quoc",
+            "affiliation_index": 1
+        }
+    ],
+    "title": "TomaMMU: A Comprehensive Multimodal Understanding Benchmark for Tomato Leaf Diseases"
+}

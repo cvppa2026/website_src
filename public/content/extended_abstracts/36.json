@@ -1,0 +1,45 @@
+{
+    "affiliations": [
+        "INRAE",
+        "Université d'Angers"
+    ],
+    "authors": [
+        {
+            "name": "Abdoul Djalil",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Ousseini Hamza",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Herearii Metuarea",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Corentin Lothodé",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Corentin Lothodé",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Éric Duchêne",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Lionel Ley",
+            "affiliation_index": 0
+        },
+        {
+            "name": "David Alletru",
+            "affiliation_index": 0
+        },
+        {
+            "name": "David Rousseau",
+            "affiliation_index": 1
+        }
+    ],
+    "title": "Foreground-Aware Zero-Shot Plant Trait Segmentation in Trellised Crops Using Side View Monocular RGB Images"
+}

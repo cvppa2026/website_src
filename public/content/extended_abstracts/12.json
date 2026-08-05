@@ -1,0 +1,25 @@
+{
+    "affiliations": [
+        "Osaka Metropolitan University",
+        "Local Incorporated Administrative Agency Research Institute of Environment, Agriculture and Fisheries, Osaka Prefecture"
+    ],
+    "authors": [
+        {
+            "name": "Tomoki Sugaya",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Yuzuko Utsumi",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Yuka Miwa",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Masakazu Iwamura",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Smartphone-Based 3D Visualization for Grape Berry Thinning Assistance"
+}

@@ -10,6 +10,7 @@ function cn(...inputs: ClassValue[]) {
 
 const navLinks = [
   { name: "Organisers", path: "/organisers" },
+  { name: "Proceedings", path: "/proceedings" },
   { name: "Call for Papers", path: "/CfP" },
   { name: "Programme", path: "/programme" },
   { name: "Speakers", path: "/speakers" },

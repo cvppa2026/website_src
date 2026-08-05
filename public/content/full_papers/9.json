@@ -1,0 +1,20 @@
+{
+    "affiliations": [
+        "Université d'Angers"
+    ],
+    "authors": [
+        {
+            "name": "Simon Ravé",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Pejman Rasti",
+            "affiliation_index": 0
+        },
+        {
+            "name": "David Rousseau",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "How Merge-Tolerant are Vision Transformers for Wheat Phenotyping?"
+}

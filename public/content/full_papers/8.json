@@ -1,0 +1,28 @@
+{
+    "affiliations": [
+        "Agroscope","ETH"
+    ],
+    "authors": [
+        {
+            "name": "Mehmet Ozgur Turkoglu",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Sélène Ledain",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Thomas Lauber",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Jeffrey Zweidler",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Helge Aasen",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "T3S: Think in Thermal Time for Generalizable Crop Mapping from Satellite Image Time Series"
+}

@@ -1,0 +1,42 @@
+{
+    "affiliations": [
+        "Escuela Superior Politécnica del Litoral",
+        "Universidad de Granada",
+        "Computer Vision Center, Universitat Autònoma de Barcelona"
+    ],
+    "authors": [
+        {
+            "name": "Héctor Villegas",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Henry O. Velesaca",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Maria Fernanda Calderon Vega",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Miguel Realpe",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Jonathan Cedeño Bowen",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Angel Domingo Sappa",
+            "affiliation_index": 2
+        },
+        {
+            "name": "Juan A. Holgado-Terriza",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Keyla Fernanda Franco Hidalgo",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Cross-Spectral Tree Canopy Damage Detection using Deep Learning"
+}

@@ -1,0 +1,28 @@
+{
+    "affiliations": [
+        "Utrecht University"
+    ],
+    "authors": [
+        {
+            "name": "Frank Gyan Okyere",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Sarah L. Mehrem",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Sanne Abeln",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Basten L. Snoek",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Guido Van den Ackerveken",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "SST-MAE: Learning Spectral-Spatio-Temporal Representations from Plant Hyperspectral Time Series to Discover Complex Genotype-Phenotype Relations"
+}

@@ -1,0 +1,16 @@
+{
+    "affiliations": [
+        "Nara Women's University"
+    ],
+    "authors": [
+        {
+            "name": "Hinano Shimbo",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Meng-Yu Jennifer Kuo",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "PlantSeg3D: Gaussian Plant Instance Segmentation with Geometry-aware Refinement"
+}

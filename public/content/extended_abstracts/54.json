@@ -1,0 +1,23 @@
+{
+    "affiliations": [
+        "University of Novi Sad",
+        "BioSense Institute",
+        "Technical University Munich",
+        "Siemens Technology"
+    ],
+    "authors": [
+        {
+            "name": "Polina Maglevannaia",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Marko Panić",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Slobodan Ilic",
+            "affiliation_index": [2,3]
+        }
+    ],
+    "title": "Multi-View 3D Wheat Ear Instance Segmentation for RGB-Based Phenotyping"
+}

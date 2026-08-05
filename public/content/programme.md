@@ -1,18 +1,17 @@
-<br/>
-<br/>
+The workshop will take place on **Wednesday, 9 September 2026 afternoon** at **ECCV 2026**. The **room will be announced by the conference organisers** and will be updated here as soon as it is available.
 
-<div align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style="color: #64748b; margin-bottom: 1.5rem;">
-    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-    <line x1="16" y1="2" x2="16" y2="6"></line>
-    <line x1="8" y1="2" x2="8" y2="6"></line>
-    <line x1="3" y1="10" x2="21" y2="10"></line>
-    <path d="M10 15h4"></path>
-    <path d="M12 13v4"></path>
-  </svg>
+> **Please note:** The schedule below is provisional and may be subject to minor changes.
 
-  <h2 style="border: none; margin-top: 0; padding: 0;">Hang tight!</h2>
-  <p style="font-size: 1.15rem; color: #64748b; max-width: 400px; margin: 0 auto;">
-    The official workshop programme schedule is currently being finalized and will be available here soon.
-  </p>
-</div>
+
+| Time              | Session                                                                               |
+| :---------------- | :------------------------------------------------------------------------------------ |
+| **13:00 – 13:05** | Welcome and short introduction                                                        |
+| **13:05 – 13:45** | Invited Speaker #1                                                                    |
+| **13:45 – 13:55** | Lightning talks for Extended Abstracts                                                |
+| **13:55 – 14:15** | Paper Session #1                                                                      |
+| **14:15 – 14:35** | Paper Session #2                                                                      |
+| **14:35 – 15:55** | Poster session                                                                        |
+| **15:55 – 16:35** | Invited Speaker #2                                                                    |
+| **16:35 – 16:55** | Challenge Session                                                                     |
+| **16:55 – 17:00** | Closing Remarks                                                                       |
+

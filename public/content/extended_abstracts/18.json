@@ -1,0 +1,20 @@
+{
+    "affiliations": [
+        "ETH Zurich"
+    ],
+    "authors": [
+        {
+            "name": "Mike Boss",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Michele Volpi",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Lukas Roth",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "OneGrow: Unified Temporal Plant Image and Mask Generation"
+}

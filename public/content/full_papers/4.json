@@ -1,0 +1,33 @@
+{
+    "affiliations": [
+        "Fraunhofer IGD",
+        "Rothamsted Research"
+    ],
+    "authors": [
+        {
+            "name": "Ashutosh Singh",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Sarah Hoppe",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Lina E. Budde",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Philipp Wree",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Latifa Greche",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Malcolm J Hawkesford",
+            "affiliation_index": 1
+        }
+    ],
+    "title": "Wheat3DIS: A Benchmark for 3D Instance Segmentation of Wheat Heads from Point Clouds"
+}

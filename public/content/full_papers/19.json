@@ -1,0 +1,32 @@
+{
+    "affiliations": [
+        "Instituto Superior Técnico", "SISCOG"
+    ],
+    "authors": [
+        {
+            "name": "Gonçalo P. Matos",
+            "affiliation_index": 0
+        },
+        {
+            "name": "José Ramos da Silva",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Carlos Santiago",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Joao Costeira",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Ricardo L. Saldanha",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Ernesto M. Morgado",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Tree fingerprinting in the `season of the sticks`: mapping and visual localisation in orchards"
+}

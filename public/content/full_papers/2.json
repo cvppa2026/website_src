@@ -1,0 +1,21 @@
+{
+    "affiliations": [
+        "Universität Bonn",
+        "Commonwealth Scientific and Industrial Research Organisation"
+    ],
+    "authors": [
+        {
+            "name": "Maohui Li",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Michael Allan Halstead",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Chris McCool",
+            "affiliation_index": 1
+        }
+    ],
+    "title": "Token Reduction for Efficient Video Instance Segmentation with Transformers"
+}

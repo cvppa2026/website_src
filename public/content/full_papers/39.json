@@ -1,0 +1,24 @@
+{
+    "affiliations": [
+        "University of Nottingham"
+    ],
+    "authors": [
+        {
+            "name": "Amber Swarbrick",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Craig John Sturrock",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Shreyank N Gowda",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Michael P. Pound",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Directional Priors for Volumetric Root Segmentation"
+}

@@ -1,0 +1,24 @@
+{
+    "affiliations": [
+        "Polytechnic Institute of Turin", "University of Roma \"La Sapienza\"", "DeepPlants srl"
+    ],
+    "authors": [
+        {
+            "name": "Alessandro Russo",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Stefano D'Arrigo",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Flavio Storino",
+            "affiliation_index": 2
+        },
+        {
+            "name": "Fiora Pirri",
+            "affiliation_index": 2
+        }
+    ],
+    "title": "A multi-task methodology for detecting all stresses on closely observed plants"
+}

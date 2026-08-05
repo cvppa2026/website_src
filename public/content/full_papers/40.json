@@ -1,0 +1,25 @@
+{
+    "affiliations": [
+        "China Agricultural University",
+        "Nanjing Agricultural University"
+    ],
+    "authors": [
+        {
+            "name": "Mengqi Zhang",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Shichao Jin",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Man Zhang",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Minjuan Wang",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Stable Plant Structure Reconstruction via Geometry-Regularized 3D Gaussian Splatting"
+}

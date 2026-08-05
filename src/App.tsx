@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { MarkdownViewer } from './components/MarkdownViewer';
 import { SpeakersPage } from './components/SpeakersPage';
+import { ProceedingsPage } from './components/ProceedingsPage';
 
 function App() {
   const location = useLocation();
@@ -14,6 +15,7 @@ function App() {
           <Routes location={location}>
             <Route path="/" element={<MarkdownViewer filename="home.md" />} />
             <Route path="/organisers" element={<MarkdownViewer filename="organisers.md" />} />
+            <Route path="/proceedings" element={<ProceedingsPage />} />
             <Route path="/CfP" element={<MarkdownViewer filename="cfp.md" showToc />} />
             <Route path="/programme" element={<MarkdownViewer filename="programme.md" />} />
             <Route path="/speakers" element={<SpeakersPage />} />

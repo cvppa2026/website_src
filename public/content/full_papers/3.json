@@ -1,0 +1,12 @@
+{
+    "affiliations": [
+        "Visionary Tech & Event Solution"
+    ],
+    "authors": [
+        {
+            "name": "Janos Horvath",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "PlantAL-Bench: Topology-Aware Budgeted Active Annotation for Plant Segmentation"
+}

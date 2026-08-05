@@ -1,0 +1,20 @@
+{
+    "affiliations": [
+        "Technical University of Denmark"
+    ],
+    "authors": [
+        {
+            "name": "Vasileios Tzouras",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Paraskevas Pegios",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Lazaros Nalpantidis",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Scale Matters: Adaptive Granularity Selection for Cross-Species 3D Plant Organ Segmentation"
+}

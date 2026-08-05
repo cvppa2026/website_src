@@ -1,0 +1,16 @@
+{
+    "affiliations": [
+        "Wrocław University of Science and Technology"
+    ],
+    "authors": [
+        {
+            "name": "Paweł Majewski",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Michał Woźniak",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "AutoAgriCV: Multi-Agent LLM Framework for Iterative Computer Vision Solution Development in Precision Agriculture"
+}

@@ -1,0 +1,33 @@
+{
+    "affiliations": [
+        "University of Ljubljana",
+        "University of Lincoln"
+    ],
+    "authors": [
+        {
+            "name": "Aleksandar Stefanov",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Rajitha de Silva",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Mamatha Thota",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Riccardo Polvara",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Marko Munih",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Matjaž Mihelj",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Self-Supervised Adaptation of Dense DINOv3 Features for Improved In-Context Vegetation Segmentation"
+}

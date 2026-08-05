@@ -1,0 +1,16 @@
+{
+    "affiliations": [
+        "University of Missouri"
+    ],
+    "authors": [
+        {
+            "name": "Ramy Farag",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Guilherme N. DeSouza",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Adaptive Deformable Features for Leaf Vein Segmentation"
+}

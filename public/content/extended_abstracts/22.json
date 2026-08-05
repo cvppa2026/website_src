@@ -1,0 +1,20 @@
+{
+    "affiliations": [
+        "Technische Universität Dresden"
+    ],
+    "authors": [
+        {
+            "name": "Zihan Zhang",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Benjamin Russig",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Stefan Gumhold",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "View-consistent 3D Venation Evidence Extraction from Transmittance-enhanced Multi-view Leaf Images"
+}

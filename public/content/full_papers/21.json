@@ -1,0 +1,24 @@
+{
+    "affiliations": [
+        "ETH", "Agroscope"
+    ],
+    "authors": [
+        {
+            "name": "Dominik Senti",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Mehmet Ozgur Turkoglu",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Michele Volpi",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Helge Aasen",
+            "affiliation_index": 1
+        }
+    ],
+    "title": "Learning to Forecast Crop Growth from Earth Observation Data"
+}

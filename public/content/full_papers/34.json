@@ -1,0 +1,19 @@
+{
+    "affiliations": [
+        "Fraunhofer IIS"
+    ],
+    "authors": [
+        {
+            "name": "Andreas Gilson",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Peter Pietrzyk",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Laura Hennig"
+        }
+    ],
+    "title": "Zero-Shot 3D Plant Organ Segmentation with SAM3 and Semantic NeRFs"
+}

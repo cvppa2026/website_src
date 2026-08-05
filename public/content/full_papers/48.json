@@ -1,0 +1,26 @@
+{
+    "affiliations": [
+        "Technische Hochschule Mittelhessen",
+        "Karlsruher Institut für Technologie",
+        "Sao Paulo State University"
+    ],
+    "authors": [
+        {
+            "name": "Moritz Schauer",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Daniel Dumschat",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Ahmed Hammam",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Seyed Eghbal Ghobadi",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Negative-First: Self-Supervised Background Modeling for Plant Localization in Green-on-Green Grassland"
+}

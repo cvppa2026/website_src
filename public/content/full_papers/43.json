@@ -1,0 +1,26 @@
+{
+    "affiliations": [
+        "Universidade Estadual Paulista",
+        "Wageningen University & Research",
+        "Sao Paulo State University"
+    ],
+    "authors": [
+        {
+            "name": "Luiz Carlos Marques Junior",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Carlos André Braile Przewodowski Filho",
+            "affiliation_index": 0
+        },
+        {
+            "name": "Ricardo da Silva Torres",
+            "affiliation_index": 1
+        },
+        {
+            "name": "Joao Paulo Papa",
+            "affiliation_index": 2
+        }
+    ],
+    "title": "GAPM - Growth-Aware Phenotyping Memory for Retrieval-Augmented 4D Plant Phenotyping"
+}
