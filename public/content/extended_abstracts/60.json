@@ -1,0 +1,15 @@
+{
+    "affiliations": [
+        "Grand Valley State University"
+    ],
+    "authors": [
+        {
+            "name": "Yifei Cheng"
+        },
+        {
+            "name": "Haoyu Li",
+            "affiliation_index": 0
+        }
+    ],
+    "title": "Vegetation Health Classification for Low-Data and Edge Hardware Deployment"
+}
