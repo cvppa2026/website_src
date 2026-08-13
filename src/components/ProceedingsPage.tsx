@@ -5,29 +5,47 @@ const fullPaperFiles = import.meta.glob<any>("../../public/content/full_papers/*
   eager: true,
 });
 
+const fullPaperPdfs = import.meta.glob<string>("../../public/content/full_papers/*.pdf", {
+  eager: true,
+  query: "?url",
+  import: "default",
+});
+
 const extendedAbstractFiles = import.meta.glob<any>(
   "../../public/content/extended_abstracts/*.json",
   { eager: true }
 );
 
-function parsePapersFromGlob(globResult: Record<string, any>): Paper[] {
+const extendedAbstractPdfs = import.meta.glob<string>(
+  "../../public/content/extended_abstracts/*.pdf",
+  { eager: true, query: "?url", import: "default" }
+);
+
+function parsePapersFromGlob(
+  globResult: Record<string, any>,
+  pdfGlobResult: Record<string, any> = {}
+): Paper[] {
   return Object.entries(globResult)
     .map(([path, mod]) => {
       const filename = path.split("/").pop() || "";
       const id = parseInt(filename.replace(".json", ""), 10);
       const data = mod.default || mod;
+      const pdfKey = path.replace(/\.json$/, ".pdf");
+      const pdfUrl = data.pdf || pdfGlobResult[pdfKey] || undefined;
+
       return {
         id,
         title: data.title || "",
         authors: data.authors || [],
         affiliations: data.affiliations || [],
+        pdfUrl: typeof pdfUrl === "string" ? pdfUrl : undefined,
       };
     })
     .sort((a, b) => a.id - b.id);
 }
 
-const fullPapers = parsePapersFromGlob(fullPaperFiles);
-const extendedAbstracts = parsePapersFromGlob(extendedAbstractFiles);
+const fullPapers = parsePapersFromGlob(fullPaperFiles, fullPaperPdfs);
+const extendedAbstracts = parsePapersFromGlob(extendedAbstractFiles, extendedAbstractPdfs);
 
 const sections = [
   { id: "full-papers", title: "Full Papers" },
