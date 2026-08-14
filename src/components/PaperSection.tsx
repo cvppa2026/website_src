@@ -31,8 +31,8 @@ interface PaperSectionProps {
   papers: Paper[];
 }
 
-function getFirst10Words(text: string): { first10: string; fullText: string; hasMore: boolean; wordCount: number } {
-  if (!text) return { first10: "", fullText: "", hasMore: false, wordCount: 0 };
+function getFirst10Words(text: string): { first10: string; fullText: string; hasMore: boolean } {
+  if (!text) return { first10: "", fullText: "", hasMore: false };
 
   const cleanText = text.trim();
   const words = cleanText.split(/\s+/);
@@ -42,7 +42,6 @@ function getFirst10Words(text: string): { first10: string; fullText: string; has
       first10: cleanText,
       fullText: cleanText,
       hasMore: false,
-      wordCount: words.length,
     };
   }
 
@@ -51,7 +50,6 @@ function getFirst10Words(text: string): { first10: string; fullText: string; has
     first10,
     fullText: cleanText,
     hasMore: true,
-    wordCount: words.length,
   };
 }
 
@@ -61,7 +59,7 @@ interface AbstractBoxProps {
 
 function AbstractBox({ abstract }: AbstractBoxProps) {
   const [isExpanded, setIsExpanded] = useState(false);
-  const { first10, fullText, hasMore, wordCount } = getFirst10Words(abstract);
+  const { first10, fullText, hasMore } = getFirst10Words(abstract);
 
   const contentToRender = hasMore && !isExpanded ? first10 + "…" : fullText;
 
