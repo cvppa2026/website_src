@@ -1,6 +1,8 @@
 {
     "affiliations": [
-        "Polytechnic Institute of Turin", "University of Roma \"La Sapienza\"", "DeepPlants srl"
+        "Polytechnic Institute of Turin",
+        "University of Roma \"La Sapienza\"",
+        "DeepPlants srl"
     ],
     "authors": [
         {
@@ -20,5 +22,6 @@
             "affiliation_index": 2
         }
     ],
-    "title": "A multi-task methodology for detecting all stresses on closely observed plants"
+    "title": "A multi-task methodology for detecting all stresses on closely observed plants",
+    "dataset": "https://github.com/deepplants/deBary-dataset"
 }

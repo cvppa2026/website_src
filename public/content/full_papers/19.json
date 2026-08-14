@@ -1,6 +1,7 @@
 {
     "affiliations": [
-        "Instituto Superior Técnico", "SISCOG"
+        "Instituto Superior Técnico",
+        "SISCOG"
     ],
     "authors": [
         {
@@ -28,5 +29,7 @@
             "affiliation_index": 0
         }
     ],
-    "title": "Tree fingerprinting in the `season of the sticks`: mapping and visual localisation in orchards"
+    "title": "Tree fingerprinting in the `season of the sticks`: mapping and visual localisation in orchards",
+    "video": "https://anubis-sipg.isr.tecnico.ulisboa.pt/index.php/s/BtcdY7qCR5Y8oon",
+    "dataset": "https://github.com/gonmts/Tree-fingerprinting-in-the-season-of-the-sticks"
 }

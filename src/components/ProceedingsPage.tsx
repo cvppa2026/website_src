@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { PaperSection, type Paper } from "./PaperSection";
 
-const fullPaperFiles = import.meta.glob<any>("../../public/content/full_papers/*.json", {
+const fullPaperFiles = import.meta.glob<Record<string, unknown>>("../../public/content/full_papers/*.json", {
   eager: true,
 });
 
@@ -11,7 +11,7 @@ const fullPaperPdfs = import.meta.glob<string>("../../public/content/full_papers
   import: "default",
 });
 
-const extendedAbstractFiles = import.meta.glob<any>(
+const extendedAbstractFiles = import.meta.glob<Record<string, unknown>>(
   "../../public/content/extended_abstracts/*.json",
   { eager: true }
 );
@@ -22,23 +22,26 @@ const extendedAbstractPdfs = import.meta.glob<string>(
 );
 
 function parsePapersFromGlob(
-  globResult: Record<string, any>,
-  pdfGlobResult: Record<string, any> = {}
+  globResult: Record<string, unknown>,
+  pdfGlobResult: Record<string, string> = {}
 ): Paper[] {
   return Object.entries(globResult)
     .map(([path, mod]) => {
       const filename = path.split("/").pop() || "";
       const id = parseInt(filename.replace(".json", ""), 10);
-      const data = mod.default || mod;
+      const data = ((mod as { default?: Record<string, unknown> }).default || mod) as Record<string, unknown>;
       const pdfKey = path.replace(/\.json$/, ".pdf");
       const pdfUrl = data.pdf || pdfGlobResult[pdfKey] || undefined;
 
       return {
         id,
-        title: data.title || "",
-        authors: data.authors || [],
-        affiliations: data.affiliations || [],
+        title: typeof data.title === "string" ? data.title : "",
+        authors: Array.isArray(data.authors) ? data.authors : [],
+        affiliations: Array.isArray(data.affiliations) ? data.affiliations : [],
         pdfUrl: typeof pdfUrl === "string" ? pdfUrl : undefined,
+        videoUrl: typeof data.video === "string" ? data.video : (typeof data.videoUrl === "string" ? (data.videoUrl as string) : undefined),
+        supplementaryUrl: typeof data.supplementary === "string" ? data.supplementary : (typeof data.supplementaryUrl === "string" ? (data.supplementaryUrl as string) : undefined),
+        datasetUrl: typeof data.dataset === "string" ? data.dataset : (typeof data.datasetUrl === "string" ? (data.datasetUrl as string) : undefined),
       };
     })
     .sort((a, b) => a.id - b.id);

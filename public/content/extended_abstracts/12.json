@@ -1,7 +1,7 @@
 {
     "affiliations": [
         "Osaka Metropolitan University",
-        "Local Incorporated Administrative Agency Research Institute of Environment, Agriculture and Fisheries, Osaka Prefecture"
+        "Research Institute of Environment, Agriculture and Fisheries, Osaka Prefecture"
     ],
     "authors": [
         {
@@ -21,5 +21,6 @@
             "affiliation_index": 0
         }
     ],
-    "title": "Smartphone-Based 3D Visualization for Grape Berry Thinning Assistance"
+    "title": "Smartphone-Based 3D Visualization for Grape Berry Thinning Assistance",
+    "supplementary": "public/content/supplementary/12-supp.pdf"
 }

@@ -24,5 +24,6 @@
             "affiliation_index": 0
         }
     ],
-    "title": "SST-MAE: Learning Spectral-Spatio-Temporal Representations from Plant Hyperspectral Time Series to Discover Complex Genotype-Phenotype Relations"
+    "title": "SST-MAE: Learning Spectral-Spatio-Temporal Representations from Plant Hyperspectral Time Series to Discover Complex Genotype-Phenotype Relations",
+    "supplementary": "public/content/supplementary/30-supp.pdf"
 }

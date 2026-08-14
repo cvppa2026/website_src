@@ -16,8 +16,12 @@
         },
         {
             "name": "Slobodan Ilic",
-            "affiliation_index": [2,3]
+            "affiliation_index": [
+                2,
+                3
+            ]
         }
     ],
-    "title": "Multi-View 3D Wheat Ear Instance Segmentation for RGB-Based Phenotyping"
+    "title": "Multi-View 3D Wheat Ear Instance Segmentation for RGB-Based Phenotyping",
+    "supplementary": "public/content/supplementary/54-supp.pdf"
 }
