@@ -1,20 +1,21 @@
 {
-    "affiliations": [
-        "University of Nottingham "
-    ],
-    "authors": [
-        {
-            "name": "Zihe Gao",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Zane K. J. Hartley",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Andrew P French",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "3D Part Segmentation for Reconstructed Plant Models via Targeted 2D-Guided Refinement"
+  "affiliations": [
+    "University of Nottingham "
+  ],
+  "authors": [
+    {
+      "name": "Zihe Gao",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Zane K. J. Hartley",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Andrew P French",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "3D Part Segmentation for Reconstructed Plant Models via Targeted 2D-Guided Refinement",
+  "abstract": "Organ-level segmentation of 3D plant models reconstructed from real plants is a prerequisite for phenotypic measurements such as organ counting, morphology estimation, and structural analysis. \nHowever, plant meshes are challenging for general-purpose 3D part segmentation because they contain thin structures, repeated and self-similar organs, frequent contact between neighbouring components, and weak attachment boundaries. \nAs a result, one-shot part segmentation can merge multiple organs into coarse predictions, limiting downstream organ-level analysis.\nThis paper presents a novel refinement strategy to improve a 3D part segmentation workflow for challenging plant meshes, and to repair such under-segmented predictions.\nStarting from a general-purpose 3D part-segmentation workflow, each predicted part is rendered from six canonical views and analysed using the Segment Anything Model. \nMulti-view mask voting selects likely under-segmented parent parts for one additional 3D segmentation pass, while unselected parts remain unchanged. \nSurface-normal, wireframe, and depth renderings are compared as geometry-to-image encodings.\nThe pipeline is evaluated on 14 bean meshes with 202 manually annotated parts, including four real-derived meshes reconstructed from images of real bean plants and ten procedural L-system meshes. \nThe one-shot workflow recovers 73.8\\% of annotated parts without plant-specific training.\nSurface-normal-guided refinement modifies only 5 of 251 one-shot predictions, yet increases GT-correct recovery to 75.3\\%, and reduces under-segmented parts from 24.6\\% to 18.5\\% on the real-derived subset.\nThese results suggest that 2D foundation-model guidance can provide a selective and practical repair mechanism for plant-specific 3D part segmentation."
 }

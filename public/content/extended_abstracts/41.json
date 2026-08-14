@@ -1,12 +1,13 @@
 {
-    "affiliations": [
-        "Wageningen University"
-    ],
-    "authors": [
-        {
-            "name": "Armand Georgelin",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Domain-Specific Pretraining Helps - Until It Does Not: A Case Study on Grassland Weed Recognition"
+  "affiliations": [
+    "Wageningen University"
+  ],
+  "authors": [
+    {
+      "name": "Armand Georgelin",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Domain-Specific Pretraining Helps - Until It Does Not: A Case Study on Grassland Weed Recognition",
+  "abstract": "Computer vision models recognising weeds reduce labour and herbicide use in grassland agriculture, but they require large amounts of annotated data.\nWhile generic transfer learning is a proven method to mitigate this issue, domain-specific transfer learning has presented itself as a strong alternative. Which of the two to use, and when, remains unclear for grassland weed recognition, as comparisons between these two strategies, across several downstream tasks, remain scarce in the agricultural domain.\nTherefore, we build the Agro dataset: 305 270 images spanning 96 crop-and-weed species, and use it to pretrain ResNet-50 and ResNet-101 models from scratch.\nWe benchmark our Agro-pretrained backbones against ImageNet-1K V2 pretraining on six target grassland weed species.\nOur results indicate that in-domain pretraining yields superior representations of the target species.\nFor downstream detection and segmentation, Agro pretraining leads at low data levels (+7.4 pp and  +10.1 pp mAP@50 at 20 images for ResNet-50 and ResNet-101), but this advantage decreases then reverses as target data increases."
 }

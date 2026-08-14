@@ -1,20 +1,21 @@
 {
-    "affiliations": [
-        "Technical University of Denmark"
-    ],
-    "authors": [
-        {
-            "name": "Vasileios Tzouras",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Paraskevas Pegios",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Lazaros Nalpantidis",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "AgrilField-40K: Adapting Vision Models to Agriculture With Efficient Continual Pretraining"
+  "affiliations": [
+    "Technical University of Denmark"
+  ],
+  "authors": [
+    {
+      "name": "Vasileios Tzouras",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Paraskevas Pegios",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Lazaros Nalpantidis",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "AgrilField-40K: Adapting Vision Models to Agriculture With Efficient Continual Pretraining",
+  "abstract": "Field-based agricultural computer vision is important for precision agriculture, yet it largely depends on expensive annotations and costly adaptation of large pretrained models. We introduce AgriField-40K, a field-centric dataset curated from 17 public resources and covering diverse crops, weeds, and field conditions. Building on this, we present AgriMAE, a parameter-efficient continual pretraining baseline that adapts a masked autoencoder pretrained on natural images by training only lightweight adapters. We further explore semantic feature reconstruction as an alternative pretraining objective and evaluate transfer across multiple tasks. AgriMAE consistently improves downstream performance and can match or even outperform full fine-tuning while using up to 9x fewer trainable parameters, showing that AgriField-40K is a practical resource for continual pretraining in agricultural vision. Project page: https://dtu-pas.github.io/agrifield40k/"
 }

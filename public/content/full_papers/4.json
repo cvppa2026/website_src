@@ -1,33 +1,34 @@
 {
-    "affiliations": [
-        "Fraunhofer IGD",
-        "Rothamsted Research"
-    ],
-    "authors": [
-        {
-            "name": "Ashutosh Singh",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Sarah Hoppe",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Lina E. Budde",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Philipp Wree",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Latifa Greche",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Malcolm J Hawkesford",
-            "affiliation_index": 1
-        }
-    ],
-    "title": "Wheat3DIS: A Benchmark for 3D Instance Segmentation of Wheat Heads from Point Clouds"
+  "affiliations": [
+    "Fraunhofer IGD",
+    "Rothamsted Research"
+  ],
+  "authors": [
+    {
+      "name": "Ashutosh Singh",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Sarah Hoppe",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Lina E. Budde",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Philipp Wree",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Latifa Greche",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Malcolm J Hawkesford",
+      "affiliation_index": 1
+    }
+  ],
+  "title": "Wheat3DIS: A Benchmark for 3D Instance Segmentation of Wheat Heads from Point Clouds",
+  "abstract": "3D computer vision based phenotyping enables automated extraction of quantitative plant traits from field trials. However, existing wheat point-cloud datasets primarily provide part-level or semantic annotations, which are insufficient for instance-level analysis of wheat head morphology and organ-level phenotyping.\n\nIn this work, we introduce Wheat3DIS, a multi-source benchmark for 3D wheat head instance segmentation. The benchmark combines in-field wheat point clouds from various sources, such as a laser-scanner and a RGB camera array. The benchmark provides diverse 3D representations across acquisition modalities, point densities, and reconstruction characteristics. Each scene is annotated with instance-level labels for wheat heads to support the evaluation of wheat organ separation, spike counting, and structure-aware trait extraction. Wheat3DIS provides instance annotations for wheat and baseline results for representative 3D segmentation architectures on standard evaluation metrics. By focusing specifically on wheat and moving beyond part segmentation toward instance-level understanding, Wheat3DIS establishes a reproducible benchmark for studying 3D wheat instance segmentation and phenotyping under multiple acquisition modalities."
 }

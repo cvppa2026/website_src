@@ -1,16 +1,17 @@
 {
-    "affiliations": [
-        "Universität Hohenheim"
-    ],
-    "authors": [
-        {
-            "name": "Johanna Vaske",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Anthony Stein",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Towards Neural Cellular Automata for Spectral Data Simulation of Symptomatic Crop Leaves"
+  "affiliations": [
+    "Universität Hohenheim"
+  ],
+  "authors": [
+    {
+      "name": "Johanna Vaske",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Anthony Stein",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Towards Neural Cellular Automata for Spectral Data Simulation of Symptomatic Crop Leaves",
+  "abstract": "Crop pathogens pose considerable risks to global food production, resulting in substantial yield losses, yet current plant health monitoring still largely relies on manual assessments. Automated disease detection using artificial intelligence (AI) integrated into modern multispectral sensor systems offers spatio-temporally highly-resolved information beyond the visible spectrum, enabling earlier pathogen detection and enhanced decision support in farming practices. However, robust AI-based recognition requires extensive and diverse training datasets covering various disease stages, which are costly and labour-intensive to acquire because they entail crop cultivation, pathogen inoculation, and multispectral image acquisition. This paper proposes Neural Cellular Automata (NCA) variants as a parameter-efficient approach for multispectral crop leaf image simulation. As a proof-of-principle, the NCA is trained to reconstruct fixed target leaf sections of $50 \\times 50$ pixels across 5, 10, 15, and 20 spectral bands. In a second in silico experiment, the general capability of NCAs to simulate the transition from healthy to pathogen-induced symptomatic tissue across distinct disease stages is explored. Quantitative evaluation demonstrates structural fidelity and spectral fidelity using RMSE, SSIM, and SAM metrics, respectively. Moreover, parameter counts of no more than 18K confirm the computational efficiency of our approach. Further qualitative assessment corroborates the hypothesized potential of NCAs for simulating spectral images of diseased crops and in turn for contributing the mitigation of data scarcity in plant disease detection."
 }

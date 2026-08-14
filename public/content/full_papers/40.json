@@ -1,25 +1,26 @@
 {
-    "affiliations": [
-        "China Agricultural University",
-        "Nanjing Agricultural University"
-    ],
-    "authors": [
-        {
-            "name": "Mengqi Zhang",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Shichao Jin",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Man Zhang",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Minjuan Wang",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Stable Plant Structure Reconstruction via Geometry-Regularized 3D Gaussian Splatting"
+  "affiliations": [
+    "China Agricultural University",
+    "Nanjing Agricultural University"
+  ],
+  "authors": [
+    {
+      "name": "Mengqi Zhang",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Shichao Jin",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Man Zhang",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Minjuan Wang",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Stable Plant Structure Reconstruction via Geometry-Regularized 3D Gaussian Splatting",
+  "abstract": "Plant 3D reconstruction from multi-view images is essential for image-based phenotyping, but thin and self-occluded organs remain difficult to reconstruct reliably. Although 3D Gaussian Splatting (3DGS) enables efficient reconstruction, its photometric optimization does not explicitly constrain Gaussian morphology, allowing primitives to over-expand in weakly observed regions or stretch excessively along thin leaves and stems. We propose a geometry-regularized 3DGS framework that treats Gaussian morphological stability as both an optimization objective and an evaluation target. The method combines scale-ratio regularization to suppress extreme anisotropy and absolute-scale regularization to limit oversized primitives, without organ-specific structural assumptions. We further introduce primitive-level metrics, including 95th-percentile primitive scale, maximum-axis scale, axis ratio, and floating-artifact rate, to assess stability beyond PSNR, SSIM, and LPIPS. Experiments on tomato, soybean, and maize show that the method preserves rendering efficiency while reducing Gaussian morphological degeneration."
 }

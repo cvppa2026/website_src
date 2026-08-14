@@ -1,20 +1,21 @@
 {
-    "affiliations": [
-        "Technische Universität Dresden"
-    ],
-    "authors": [
-        {
-            "name": "Zihan Zhang",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Benjamin Russig",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Stefan Gumhold",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "View-consistent 3D Venation Evidence Extraction from Transmittance-enhanced Multi-view Leaf Images"
+  "affiliations": [
+    "Technische Universität Dresden"
+  ],
+  "authors": [
+    {
+      "name": "Zihan Zhang",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Benjamin Russig",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Stefan Gumhold",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "View-consistent 3D Venation Evidence Extraction from Transmittance-enhanced Multi-view Leaf Images",
+  "abstract": "Leaf venation guides water transport and reflects mechanical properties and growth status of a leaf. Current extraction methods are usually designed for flattened leaves or controlled 2D images, making nondestructive time-series phenotyping prohibitively cumbersome. RGB imaging-based methods are further hindered by veins on the adaxial side appearing weak under ordinary reflected light, while veins on the abaxial side are often clearer but face downward during growth. Direct vein extraction from reconstructed meshes is also unreliable when the geometry is noisy. We propose a low-cost transmittance-enhanced multi-view acquisition and processing pipeline. It converts per-view leaf, boundary, and vein responses into confidence-aware surface evidence, then fuses them across calibrated views on the reconstructed mesh to obtain a 3D venation candidate band. Experiments on a pumpkin leaf verify the result through 3D visualization and flattened-reference comparison. This simple, nondestructive approach offers a practical route toward temporal phenotyping of venation and vein-bounded leaf growth."
 }

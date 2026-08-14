@@ -1,7 +1,11 @@
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
+import remarkBreaks from "remark-breaks";
 import rehypeRaw from "rehype-raw";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css";
 
 interface MarkdownViewerProps {
   filename: string;
@@ -108,8 +112,8 @@ export function MarkdownViewer({ filename, showToc = false }: MarkdownViewerProp
       prose-a:text-blue-600 dark:prose-a:text-blue-400 hover:prose-a:text-blue-500 
       prose-img:rounded-xl">
       <ReactMarkdown
-        remarkPlugins={[remarkGfm]}
-        rehypePlugins={[rehypeRaw]}
+        remarkPlugins={[remarkGfm, remarkMath, remarkBreaks]}
+        rehypePlugins={[rehypeRaw, rehypeKatex]}
         components={{
           h1: ({ node, ...props }) => <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-8" {...props} />,
           h2: ({ node, children, ...props }) => {

@@ -1,21 +1,22 @@
 {
-    "affiliations": [
-        "Universität Bonn",
-        "Commonwealth Scientific and Industrial Research Organisation"
-    ],
-    "authors": [
-        {
-            "name": "Maohui Li",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Michael Allan Halstead",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Chris McCool",
-            "affiliation_index": 1
-        }
-    ],
-    "title": "ETKD: Ensemble Transformer-based Knowledge Distillation for Efficient Instance Segmentation"
+  "affiliations": [
+    "Universität Bonn",
+    "Commonwealth Scientific and Industrial Research Organisation"
+  ],
+  "authors": [
+    {
+      "name": "Maohui Li",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Michael Allan Halstead",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Chris McCool",
+      "affiliation_index": 1
+    }
+  ],
+  "title": "ETKD: Ensemble Transformer-based Knowledge Distillation for Efficient Instance Segmentation",
+  "abstract": "Transformer-based models have achieved state-of-the-art performance in computer vision but remain challenging to deploy on resource-constrained platforms due to their high computational cost. \nWhile efficient transformer variants exist, their performance often falls short of full-scale models. \nWe propose Ensemble Transformer-based Knowledge Distillation (ETKD), an ensemble distillation framework that leverages multiple transformer-based teachers to improve lightweight models without increasing complexity. \nETKD first aligns unordered queries across transformer networks to form a high-performing teacher model, and then distills diverse knowledge from multiple teachers at the query level to boost the performance of a single lightweight student model. \n    \nExperiments on two challenging agricultural datasets (BUP20, SB20) and the Cityscapes benchmark demonstrate the effectiveness of ETKD on FastInst: a state-of-the-art lightweight transformer network. \nOur ensemble teacher achieves an absolute improvement of 1.5–2.1 AP over baseline models, and ETKD consistently improves FastInst by an average of 1.8 AP (ResNet-18) and 1.3 AP (ResNet-34). \nOn the SB20 dataset with limited training samples, ETKD outperforms single-teacher knowledge distillation (STKD) by an average of 1.1 AP across different backbones.\nFurthermore, our most efficient ETKD model achieves approximately twice the inference speed of the most complex teacher while incurring only an average 1.5 AP performance loss across the three datasets.\nTo the best of our knowledge, ETKD is the first work to perform knowledge distillation with multiple transformer-based models, and our experiments validate that ETKD serves as a complementary approach to STKD when improvement margins are limited."
 }

@@ -1,45 +1,46 @@
 {
-    "affiliations": [
-        "INRAE",
-        "Université d'Angers"
-    ],
-    "authors": [
-        {
-            "name": "Abdoul Djalil",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Ousseini Hamza",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Herearii Metuarea",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Corentin Lothodé",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Corentin Lothodé",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Éric Duchêne",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Lionel Ley",
-            "affiliation_index": 0
-        },
-        {
-            "name": "David Alletru",
-            "affiliation_index": 0
-        },
-        {
-            "name": "David Rousseau",
-            "affiliation_index": 1
-        }
-    ],
-    "title": "Foreground-Aware Zero-Shot Plant Trait Segmentation in Trellised Crops Using Side View Monocular RGB Images"
+  "affiliations": [
+    "INRAE",
+    "Université d'Angers"
+  ],
+  "authors": [
+    {
+      "name": "Abdoul Djalil",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Ousseini Hamza",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Herearii Metuarea",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Corentin Lothodé",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Corentin Lothodé",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Éric Duchêne",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Lionel Ley",
+      "affiliation_index": 0
+    },
+    {
+      "name": "David Alletru",
+      "affiliation_index": 0
+    },
+    {
+      "name": "David Rousseau",
+      "affiliation_index": 1
+    }
+  ],
+  "title": "Foreground-Aware Zero-Shot Plant Trait Segmentation in Trellised Crops Using Side View Monocular RGB Images",
+  "abstract": "Zero-shot plant phenotyping in trellised crops remains challenging because field images simultaneously capture multiple vegetation rows with similar visual appearances. Although recent vision foundation models enable prompt-based segmentation, they often confuse foreground and background vegetation, especially in high-resolution images requiring tiled inference.\n\nWe propose a geometry-aware, training-free framework for zero-shot plant trait segmentation from a single monocular RGB image. A relative depth map is first estimated using Depth Anything V2 and processed by a novel Valley-Aware Depth Thresholding (VADT) algorithm to automatically extract the foreground vegetation row. The original image is then segmented by sliding-window inference with SAM3, fragmented predictions are reconstructed using a Graph-Based Mask Assembly (GMA) algorithm, and a geometry-aware fusion removes detections from neighboring rows.\n\nThe framework is evaluated on a benchmark of 158 RGB images (including approximately 10,000 manually annotated objects) acquired in vineyards, apple orchards, and apricot orchards across six geographic locations, covering leaf, fruit, black rot, and downy mildew segmentation. VADT improves foreground extraction from 0.55 to 0.85 Dice compared with the strongest RGB-based baseline, while the complete framework consistently outperforms recent foundation-model-based zero-shot segmentation pipelines. These results demonstrate that monocular scene geometry provides an effective prior for robust zero-shot plant phenotyping in structured agricultural environments."
 }

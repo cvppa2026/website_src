@@ -1,16 +1,17 @@
 {
-    "affiliations": [
-        "Nara Women's University"
-    ],
-    "authors": [
-        {
-            "name": "Hinano Shimbo",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Meng-Yu Jennifer Kuo",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "PlantSeg3D: Gaussian Plant Instance Segmentation with Geometry-aware Refinement"
+  "affiliations": [
+    "Nara Women's University"
+  ],
+  "authors": [
+    {
+      "name": "Hinano Shimbo",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Meng-Yu Jennifer Kuo",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "PlantSeg3D: Gaussian Plant Instance Segmentation with Geometry-aware Refinement",
+  "abstract": "This paper proposes an annotation-free framework for 3D plant instance segmentation. Existing methods either struggle with overlapping leaves or require costly 3D annotations. Our approach lifts pretrained SAM 3 masks into a 3D Gaussian Splatting representation through occlusion-aware multi-view voting and refines them with semantic and geometric priors to recover coherent leaf instances. Experiments demonstrate robust segmentation of touching, folded, and occluded leaves without 3D supervision, providing a practical foundation for semantic 3D plant phenotyping."
 }

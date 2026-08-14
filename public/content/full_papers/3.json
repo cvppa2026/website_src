@@ -1,12 +1,13 @@
 {
-    "affiliations": [
-        "Visionary Tech & Event Solution"
-    ],
-    "authors": [
-        {
-            "name": "Janos Horvath",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "PlantAL-Bench: Topology-Aware Budgeted Active Annotation for Plant Segmentation"
+  "affiliations": [
+    "Visionary Tech & Event Solution"
+  ],
+  "authors": [
+    {
+      "name": "Janos Horvath",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "PlantAL-Bench: Topology-Aware Budgeted Active Annotation for Plant Segmentation",
+  "abstract": "Active annotation promises to reduce the cost of dense plant phenotyping, yet current selection rules often optimize image-level uncertainty while ignoring the geometric and biological structure that makes plant segmentation difficult: thin boundaries, overlapping organs, rare classes, and topology-sensitive errors. We introduce PlantAL-Bench, a benchmark and family of topology-aware active annotation policies for cost-sensitive plant image segmentation. The central idea is to rank candidate annotations by their expected structural utility, combining model uncertainty, boundary evidence, rare-class exposure, and topology-preserving shape cues in a single acquisition score, $a(x)=\\lambda_u U(x)+\\lambda_b B(x)+\\lambda_r R(x)+\\lambda_t T(x)-\\lambda_c C(x)$. This formulation treats annotation as a constrained optimization problem rather than a fixed-budget sampling process. We evaluate PlantAL policies against uncertainty, diversity, SAM-based prompting, weakly supervised, and recent plant-phenotyping baselines under a shared annotation-time budget. Across metrics including mIoU, rare-class F1, boundary F-score, and structure F-score, the best PlantAL variants consistently reach strong segmentation quality earlier in the annotation curve and expose failure modes that are hidden by mIoU alone. Beyond a single algorithm, PlantAL-Bench provides reproducible protocols, dataset adapters, cost models, and publication-ready analyses for studying how annotation decisions affect segmentation performance in realistic plant phenotyping pipelines."
 }

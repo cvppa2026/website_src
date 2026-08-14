@@ -1,16 +1,17 @@
 {
-    "affiliations": [
-        "Wrocław University of Science and Technology"
-    ],
-    "authors": [
-        {
-            "name": "Paweł Majewski",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Michał Woźniak",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "AutoAgriCV: Multi-Agent LLM Framework for Iterative Computer Vision Solution Development in Precision Agriculture"
+  "affiliations": [
+    "Wrocław University of Science and Technology"
+  ],
+  "authors": [
+    {
+      "name": "Paweł Majewski",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Michał Woźniak",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "AutoAgriCV: Multi-Agent LLM Framework for Iterative Computer Vision Solution Development in Precision Agriculture",
+  "abstract": "Traditional development of machine learning–based computer vision solutions requires large amounts of labeled data, domain expertise, and substantial engineering effort. This challenge is particularly evident in Precision Agriculture, where high data variability makes rapid prototyping especially valuable. To address this issue, this work proposes a multi-agent LLM framework to develop, refine, and validate computer vision solutions in zero-shot and few-shot settings. The framework comprises nine deterministic, LLM-based, and hybrid agents. Its key innovations include iterative solution improvement through error-driven feedback, validation metric estimation using an LLM-as-a-Judge approach, and dataset enrichment with the foundation model SAM. The framework was evaluated on three agricultural tasks: crop detection, crop counting (midpoint detection), and crop row detection. Results demonstrate the potential of multi-agent LLM systems to accelerate the development of computer vision methods while reducing annotation effort and engineering requirements."
 }

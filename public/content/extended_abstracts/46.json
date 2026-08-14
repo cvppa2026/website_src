@@ -1,28 +1,29 @@
 {
-    "affiliations": [
-        "Tokyo Denki University"
-    ],
-    "authors": [
-        {
-            "name": "Atsuya Sakai",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Shunsuke Shioya",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Shoki Fukatani",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Yuta Sato",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Akinori Hidaka",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Tile-Based Detection of Apple Tree Phenological Stages with Test-Time Augmentation and Enhanced Weighted Boxes Fusion"
+  "affiliations": [
+    "Tokyo Denki University"
+  ],
+  "authors": [
+    {
+      "name": "Atsuya Sakai",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Shunsuke Shioya",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Shoki Fukatani",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Yuta Sato",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Akinori Hidaka",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Tile-Based Detection of Apple Tree Phenological Stages with Test-Time Augmentation and Enhanced Weighted Boxes Fusion",
+  "abstract": "We describe our winning submission to the DeepPhenoTree – ECCV 2026 CVPPA Data Challenge: detecting three apple-tree phenological classes in high-resolution orchard images from four European sites. Because the targets are small and densely packed, we tile throughout: a YOLOv12l detector is trained on 1024×1024 tiles and applied to overlapping tiles under six test-time augmentation (TTA) configurations. Detections are mapped back and merged by class-wise Weighted Boxes Fusion (WBF) with a consensus term, an edge-margin filter, a nonlinear score transformation, and a class-frequency correction. The system reached 0.522 mAP@50:95 on the blind test set. An ablation shows that TTA and WBF are effective only in combination."
 }

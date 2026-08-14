@@ -1,21 +1,22 @@
 {
-    "affiliations": [
-        "ETH Zurich"
-    ],
-    "authors": [
-        {
-            "name": "Mike Boss",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Michele Volpi",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Lukas Roth",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "OneGrow: Unified Temporal Plant Image and Mask Generation",
-    "supplementary": "public/content/supplementary/18-supp.pdf"
+  "affiliations": [
+    "ETH Zurich"
+  ],
+  "authors": [
+    {
+      "name": "Mike Boss",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Michele Volpi",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Lukas Roth",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "OneGrow: Unified Temporal Plant Image and Mask Generation",
+  "supplementary": "public/content/supplementary/18-supp.pdf",
+  "abstract": "Image-based crop phenotyping benefits from image series that capture plant development\n  together with organ-level labels, yet such paired data are scarce.\n  We present OneGrow, a latent flow-matching model that jointly models wheat images\n  and their organ-segmentation masks over time.\n  One frozen image autoencoder encodes both modalities, and a reveal specifies\n  which content is observed context, so one trained model covers mask-to-image synthesis,\n  image-to-mask segmentation, temporal forecasting, and spatial completion.\n  A sliding-window roll-out extends generation beyond the training horizon by revealing\n  already-generated frames as context.\n  We train jointly on a single-frame and a multi-year temporal wheat dataset using\n  pseudo-labels from a pretrained segmentation model.\n  We evaluate segmentation and image quality against held-out references, and assess the\n  multi-task and temporal behavior qualitatively."
 }

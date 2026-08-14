@@ -1,26 +1,27 @@
 {
-    "affiliations": [
-        "Osaka Metropolitan University",
-        "Research Institute of Environment, Agriculture and Fisheries, Osaka Prefecture"
-    ],
-    "authors": [
-        {
-            "name": "Tomoki Sugaya",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Yuzuko Utsumi",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Yuka Miwa",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Masakazu Iwamura",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Smartphone-Based 3D Visualization for Grape Berry Thinning Assistance",
-    "supplementary": "public/content/supplementary/12-supp.pdf"
+  "affiliations": [
+    "Osaka Metropolitan University",
+    "Research Institute of Environment, Agriculture and Fisheries, Osaka Prefecture"
+  ],
+  "authors": [
+    {
+      "name": "Tomoki Sugaya",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Yuzuko Utsumi",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Yuka Miwa",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Masakazu Iwamura",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Smartphone-Based 3D Visualization for Grape Berry Thinning Assistance",
+  "supplementary": "public/content/supplementary/12-supp.pdf",
+  "abstract": "To help novices learn how to thin grape berries, we developed an application that automates the entire workflow, from video capture to the presentation of thinning targets. The 3D position of each berry is estimated through point-cloud reconstruction followed by sphere detection. The selection of berries to be thinned is then formulated as a combinatorial optimization problem and solved using a genetic algorithm. The resulting thinning targets are visualized on an interactive 3D model, allowing users to intuitively check which berries to remove. The entire user-facing interface runs on a commodity smartphone in the field. In a pilot evaluation using real grape bunches, thinning guided by the application achieved inter-berry spacing comparable to that of an expert."
 }

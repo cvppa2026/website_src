@@ -1,8 +1,9 @@
 {
-    "authors": [
-        {
-            "name": "Andy Zhang"
-        }
-    ],
-    "title": "QSel: Budget-Aware Quality Selection for Dense Apple Phenology Detection"
+  "authors": [
+    {
+      "name": "Andy Zhang"
+    }
+  ],
+  "title": "QSel: Budget-Aware Quality Selection for Dense Apple Phenology Detection",
+  "abstract": "The DeepPhenoTree--Apple Edition Data Challenge requires detection of small, overlapping flowers, fruitlets, and fruit under a 30-minute inference budget. We present the system that placed third in its blind phase. A YOLO-World detector generates candidate boxes, and image-level classifiers determine the phenological stage. The detector often located objects approximately, but its scores did not reliably identify the most precisely localized boxes. We therefore introduce QSel, a lightweight post-processing model that estimates localization quality and ranks detections under the output limit. On a fixed out-of-fold candidate set, QSel increased $\\mathrm{mAP}_{50:95}$ from 0.5192 to 0.5265 at a cap of 400. The complete system achieved 0.4962 on the hidden test set, ranking third among 12 visible blind-phase entries as of 2026-07-07. Quality-aware ranking thus provided a modest improvement under a fixed prediction budget."
 }

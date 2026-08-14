@@ -1,21 +1,22 @@
 {
-    "affiliations": [
-        "Copenhagen University",
-        "Lund University"
-    ],
-    "authors": [
-        {
-            "name": "Markos Aivazoglou-Vounatsos",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Roberta Hunt",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Kim Steenstrup Pedersen",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Arable-500K: A Benchmark Dataset for Self-Supervised Vision in Arable Fields"
+  "affiliations": [
+    "Copenhagen University",
+    "Lund University"
+  ],
+  "authors": [
+    {
+      "name": "Markos Aivazoglou-Vounatsos",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Roberta Hunt",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Kim Steenstrup Pedersen",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Arable-500K: A Benchmark Dataset for Self-Supervised Vision in Arable Fields",
+  "abstract": "Self-supervised learning offers a path to species-level recognition in arable fields without costly annotation, but requires a corpus broad enough for representation learning, scoped tightly enough to avoid wasting model capacity on irrelevant content, and permissively licensed for resource-constrained practitioners. No such dataset exists for European arable crop and weed species: existing agricultural corpora either span thousands of species beyond arable relevance with unverified labels and restrictive licensing, or are too narrow in scope and diversity to support pretraining. We introduce Arable-500K, a permissively licensed image dataset of European arable weed and crop species curated from GBIF and grounded in the AHDB Encyclopaedia of Arable Weeds. We pretrain a ViT-B/16 encoder on Arable-500K using LeJEPA, a heuristic-free self-supervised framework that removes the teacher-student distillation dependency general-purpose foundation backbones such as DINOv2 rely on, training end to end on a two-GPU workstation rather than requiring the large-scale infrastructure those backbones depend on. The resulting frozen representations outperform a fully supervised ResNet-50 trained on the same data. On a separate external benchmark, lightweight fine-tuning alleviates a domain shift between citizen-science pretraining imagery and field-acquired evaluation data, closing the gap to DINOv2 ViT-B/14 to within 1.7 percentage points. Holding out an entire taxonomic family from pretraining, we show the learned representations still transfer to unseen species. Arable-500K establishes a benchmark for self-supervised learning in agricultural computer vision, demonstrating domain-specific pretraining as a practical, reproducible alternative to web-scale or fully supervised approaches."
 }

@@ -1,28 +1,30 @@
 {
-    "affiliations": [
-        "Agroscope","ETH"
-    ],
-    "authors": [
-        {
-            "name": "Mehmet Ozgur Turkoglu",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Sélène Ledain",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Thomas Lauber",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Jeffrey Zweidler",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Helge Aasen",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "T3S: Think in Thermal Time for Generalizable Crop Mapping from Satellite Image Time Series"
+  "affiliations": [
+    "Agroscope",
+    "ETH"
+  ],
+  "authors": [
+    {
+      "name": "Mehmet Ozgur Turkoglu",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Sélène Ledain",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Thomas Lauber",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Jeffrey Zweidler",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Helge Aasen",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "T3S: Think in Thermal Time for Generalizable Crop Mapping from Satellite Image Time Series",
+  "abstract": "Crop type classification from optical satellite time series remains limited in its ability to generalize across growing seasons, particularly when crop phenology shifts due to inter-annual weather variability. This hampers deployment in operational settings where current-year labels are unavailable. In addition, uncertainty quantification is often overlooked, reducing the reliability of such approaches for practical crop monitoring. Inspired by ecophysiological principles, we introduce Thermal Time-based Temporal Sampling ($T^3S$), a simple, model-agnostic method that replaces calendar time with thermal time. By re-indexing satellite observations by cumulative growing degree days, $T^3S$ aligns phenologically equivalent growth stages across years, reducing temporal redundancy while concentrating on the most biologically informative periods. We evaluate $T^3S$ across three architecturally distinct backbones on (i) SwissCrop, a new country-scale, multi-year Sentinel-2 dataset with paired temperature data that we publicly release, and (ii) the cross-region TimeMatch benchmark spanning Denmark and France. Across these settings, $T^3S$ consistently improves cross-year and cross-region crop classification over several state-of-the-art baselines, including thermal positional encoding, with particularly strong gains in uncertainty calibration, robustness under label scarcity, and early-season prediction, while requiring no architectural modification."
 }

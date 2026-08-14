@@ -1,21 +1,22 @@
 {
-    "affiliations": [
-        "FPT University",
-        "Korea University"
-    ],
-    "authors": [
-        {
-            "name": "Gia-Han Truong",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Luyl-Da Quach",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Khang Nguyen Quoc",
-            "affiliation_index": 1
-        }
-    ],
-    "title": "TomaMMU: A Comprehensive Multimodal Understanding Benchmark for Tomato Leaf Diseases"
+  "affiliations": [
+    "FPT University",
+    "Korea University"
+  ],
+  "authors": [
+    {
+      "name": "Gia-Han Truong",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Luyl-Da Quach",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Khang Nguyen Quoc",
+      "affiliation_index": 1
+    }
+  ],
+  "title": "TomaMMU: A Comprehensive Multimodal Understanding Benchmark for Tomato Leaf Diseases",
+  "abstract": "Despite advances in automated plant disease recognition, existing systems primarily frame diagnosis as a visual classification problem, leaving multimodal disease understanding and reasoning underexplored, particularly in real-world settings marked by visual variability, background clutter, and inconsistent illumination. To address this gap, we introduce TomaMMU, a large-scale Tomato leaf disease MultiModal Understanding dataset, alongside TomaBench, a benchmark for evaluating VLMs on tomato disease understanding.\nTomaMMU comprises 28,808 high-quality images spanning 15 categories and 213,119 human-annotated visual question-answer pairs, generated through a three-stage pipeline comprising Data Collection, Human Annotation, and Question-Answer Generation. \nBuilding on this foundation, TomaBench organizes seven agricultural tasks into a hierarchical three-level taxonomy spanning Basic Perception, Pathology Understanding, and Expert Diagnosis, which together enable systematic evaluation from low-level visual recognition to high-level diagnostic reasoning. The tasks assess visual symptom recognition, taxonomic relationships, and diagnostic reasoning, offering a comprehensive view of how well models grasp plant pathology. Our results pronounced gaps in fine-grained recognition and factually grounded reasoning with 14 state-of-the-art VLMs, consistently underperforming on both challenging MCQs and open-ended questions. These results suggest that current VLMs struggle to translate visual perception into reliable diagnostic knowledge, motivating the need for targeted domain adaptation. Simple fine-tuning on TomaMMU substantially narrows this gap, boosting accuracy on challenging MCQs to 96.09%, outperforming recent VLMs, and pointing toward promising directions for future work."
 }

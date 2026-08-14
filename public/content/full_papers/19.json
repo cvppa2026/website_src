@@ -1,35 +1,36 @@
 {
-    "affiliations": [
-        "Instituto Superior Técnico",
-        "SISCOG"
-    ],
-    "authors": [
-        {
-            "name": "Gonçalo P. Matos",
-            "affiliation_index": 0
-        },
-        {
-            "name": "José Ramos da Silva",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Carlos Santiago",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Joao Costeira",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Ricardo L. Saldanha",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Ernesto M. Morgado",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Tree fingerprinting in the `season of the sticks`: mapping and visual localisation in orchards",
-    "video": "https://anubis-sipg.isr.tecnico.ulisboa.pt/index.php/s/BtcdY7qCR5Y8oon",
-    "dataset": "https://github.com/gonmts/Tree-fingerprinting-in-the-season-of-the-sticks"
+  "affiliations": [
+    "Instituto Superior Técnico",
+    "SISCOG"
+  ],
+  "authors": [
+    {
+      "name": "Gonçalo P. Matos",
+      "affiliation_index": 0
+    },
+    {
+      "name": "José Ramos da Silva",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Carlos Santiago",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Joao Costeira",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Ricardo L. Saldanha",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Ernesto M. Morgado",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Tree fingerprinting in the `season of the sticks`: mapping and visual localisation in orchards",
+  "video": "https://anubis-sipg.isr.tecnico.ulisboa.pt/index.php/s/BtcdY7qCR5Y8oon",
+  "dataset": "https://github.com/gonmts/Tree-fingerprinting-in-the-season-of-the-sticks",
+  "abstract": "Accurate tracking of trees and their organs throughout the phenological cycle is of paramount importance in precision agriculture, enabling, among many tasks, optimised  harvesting and targeted disease detection. Artificial vision is a key technology to automate agricultural processes; however, mapping for visual navigation in orchards is, still today, a hard task due to its inherently dynamic structures and lack of stable visual cues.\nPrevious approaches relying largely on visual descriptors are susceptible to variations in illumination and rapid changes associated with plant growth, limiting their effectiveness in orchard environments. \nIn this work we leverage geometric hashing principles that proved to successfully track fruits under such challenging conditions, and propose STaR-i HD, a hybrid geometric descriptor for ``constellations'' of tree structural elements, to close the gap towards the full mapping of orchards very early in the phenological cycle. In this phase, only trunks and branches are visible, so we also propose a definition of stable tree structures to track. \nWe show that our method can re-identify the same trees and branches later in the year, and navigate in the orchard with centimetre-level precision using just a consumer RGB stereo camera."
 }

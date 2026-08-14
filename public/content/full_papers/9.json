@@ -1,20 +1,21 @@
 {
-    "affiliations": [
-        "Université d'Angers"
-    ],
-    "authors": [
-        {
-            "name": "Simon Ravé",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Pejman Rasti",
-            "affiliation_index": 0
-        },
-        {
-            "name": "David Rousseau",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "How Merge-Tolerant are Vision Transformers for Wheat Phenotyping?"
+  "affiliations": [
+    "Université d'Angers"
+  ],
+  "authors": [
+    {
+      "name": "Simon Ravé",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Pejman Rasti",
+      "affiliation_index": 0
+    },
+    {
+      "name": "David Rousseau",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "How Merge-Tolerant are Vision Transformers for Wheat Phenotyping?",
+  "abstract": "Vision-based wheat phenotyping requires repeated measurements under deployment constraints, from growth-stage recognition to wheat-head counting and organ segmentation. Plain Vision Transformers (ViTs) provide a common architecture for these tasks, but quadratic attention limits high-throughput and edge inference. Training-free token merging is attractive because it can be inserted into trained models without retraining. We provide a systematic benchmark of ToMe and Mutual Pair Merging across growth-stage classification, wheat-head detection, and wheat-organ segmentation, measuring task quality, throughput, token count, and peak GPU memory, with additional Raspberry Pi 5 measurements. The benchmark reveals a clear hierarchy: classification is highly merge-tolerant, while detection and segmentation are constrained by repeated instances, thin organs, dense boundaries, reconstruction, and runtime overhead. Optimized attention backends can erase apparent speedups, so deployment value must be profiled on the target runtime rather than inferred from token count."
 }

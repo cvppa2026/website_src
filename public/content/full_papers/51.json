@@ -1,33 +1,34 @@
 {
-    "affiliations": [
-        "University of Ljubljana",
-        "University of Lincoln"
-    ],
-    "authors": [
-        {
-            "name": "Aleksandar Stefanov",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Rajitha de Silva",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Mamatha Thota",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Riccardo Polvara",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Marko Munih",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Matjaž Mihelj",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Self-Supervised Adaptation of Dense DINOv3 Features for Improved In-Context Vegetation Segmentation"
+  "affiliations": [
+    "University of Ljubljana",
+    "University of Lincoln"
+  ],
+  "authors": [
+    {
+      "name": "Aleksandar Stefanov",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Rajitha de Silva",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Mamatha Thota",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Riccardo Polvara",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Marko Munih",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Matjaž Mihelj",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Self-Supervised Adaptation of Dense DINOv3 Features for Improved In-Context Vegetation Segmentation",
+  "abstract": "Dense vegetation segmentation must transfer across fields, crops, viewpoints, and sensing platforms, but dense annotation for every condition is costly. In-context segmentation instead transfers a reference vegetation mask without task-specific segmentation training, placing strong demands on dense features: they must retain local detail for intra-crop transfer while tolerating cross-crop and cross-source appearance changes. We study this trade-off in DINOv3 features for agricultural imagery. DINOv3-L provides strong local specificity but can be overly appearance-specific across crops, whereas DINOv3-S yields a more tolerant similarity structure. We therefore train a lightweight residual adapter on frozen DINOv3-L features, using frozen DINOv3-S features to filter potential false negatives. On the Agroscapes dataset, within a fixed in-context segmentation pipeline, the adapted representation improves transfer within and across crops and between aerial and ground-based sources."
 }

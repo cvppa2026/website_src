@@ -1,26 +1,27 @@
 {
-    "affiliations": [
-        "Technische Hochschule Mittelhessen",
-        "Karlsruher Institut für Technologie",
-        "Sao Paulo State University"
-    ],
-    "authors": [
-        {
-            "name": "Moritz Schauer",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Daniel Dumschat",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Ahmed Hammam",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Seyed Eghbal Ghobadi",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Negative-First: Self-Supervised Background Modeling for Plant Localization in Green-on-Green Grassland"
+  "affiliations": [
+    "Technische Hochschule Mittelhessen",
+    "Karlsruher Institut für Technologie",
+    "Sao Paulo State University"
+  ],
+  "authors": [
+    {
+      "name": "Moritz Schauer",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Daniel Dumschat",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Ahmed Hammam",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Seyed Eghbal Ghobadi",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Negative-First: Self-Supervised Background Modeling for Plant Localization in Green-on-Green Grassland",
+  "abstract": "Plant localization in grassland imagery is challenging due to the near-identical appearance of broadleaf vegetation and surrounding grass, a setting known as green-on-green. Standard supervised pipelines require manually annotated plant instances or plant-positive windows, which demand expert knowledge,  are often infeasible for small plants and fine-scale features,  and limit scalability for large-scale monitoring. We propose \\emph{Negative-First}, a background-first paradigm that inverts conventional annotation logic: instead of labeling plants directly, it learns from grass-only windows and treats non-background regions as candidate plants. We fit a Mahalanobis-distance model to frozen self-supervised embeddings of background windows and mine high-distance windows as pseudo-positive plant samples, then train a lightweight classification head on the resulting labels without manual plant annotation, keeping the encoder frozen throughout. We formulate localization as plant-presence prediction on $64{\\times}64$ pixel grid cells, yielding dense plant-likelihood maps from window-level supervision, and evaluate SSL-backbone families, pooling strategies, and classifier heads against a size-matched, fully manually labeled reference. The best Negative-First configuration reaches $0.728$ plant-positive AP, $91\\%$ of the fully supervised reference ($0.804$ AP), without any plant annotations. Our results show that frozen self-supervised representations encode sufficient morphological cues for label-efficient plant localization through background deviation alone."
 }

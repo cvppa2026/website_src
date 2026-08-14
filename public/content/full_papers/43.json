@@ -1,26 +1,27 @@
 {
-    "affiliations": [
-        "Universidade Estadual Paulista",
-        "Wageningen University & Research",
-        "Sao Paulo State University"
-    ],
-    "authors": [
-        {
-            "name": "Luiz Carlos Marques Junior",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Carlos André Braile Przewodowski Filho",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Ricardo da Silva Torres",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Joao Paulo Papa",
-            "affiliation_index": 2
-        }
-    ],
-    "title": "GAPM - Growth-Aware Phenotyping Memory for Retrieval-Augmented 4D Plant Phenotyping"
+  "affiliations": [
+    "Universidade Estadual Paulista",
+    "Wageningen University & Research",
+    "Sao Paulo State University"
+  ],
+  "authors": [
+    {
+      "name": "Luiz Carlos Marques Junior",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Carlos André Braile Przewodowski Filho",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Ricardo da Silva Torres",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Joao Paulo Papa",
+      "affiliation_index": 2
+    }
+  ],
+  "title": "GAPM - Growth-Aware Phenotyping Memory for Retrieval-Augmented 4D Plant Phenotyping",
+  "abstract": "4D plant phenotyping is inherently challenging because plant growth is non-rigid, and the continuous emergence of new organs violates the geometric correspondence assumptions required by traditional alignment-based pipelines when working with 3D point clouds. Those pipelines work under the assumption of rigid body transformations, which is rarely the case considering that plants deform and grow over time. This research context highlights a critical limitation: conventional methods struggle to maintain tracking consistency when the plant structure changes significantly between scans. To address this, we propose the Growth-Aware Phenotyping Memory (GAPM), a retrieval-augmented framework that encodes each scan into a compact latent growth state, capturing the morphological development of the plant, and retrieves informed embeddings from a memory bank to guide point-level prediction at inference time. By leveraging these learned growth representations rather than relying solely on local point-cloud geometry, our method overcomes the limitations of individual plant variability. Our methodology is validated for the organ instance tracking and new organ detection tasks. Experiments on the Pheno4D (maize and tomato) and Pepper4D (pepper) datasets demonstrate that, by incorporating the GAPM, the ID switches are reduced by ∼ 40% while the tracking accuracy is improved by +3.10 pp, the mIoU by +3.75 pp, and HOTA (Higher-Order Tracking Accuracy) by +3.79 pp (p=0.001) compared to the same model without a retrieval augmented support. Notably, while individual plant stages are ephemeral, our method identifies the underlying developmental growth patterns across different plants, enabling robust inference. Furthermore, the framework is encoder-agnostic and requires only a single input scan at inference, utilizing the encoded memory bank to inject temporal context without additional sequential data. The source code is available at GitHub."
 }

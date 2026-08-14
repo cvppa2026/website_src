@@ -1,15 +1,16 @@
 {
-    "affiliations": [
-        "Grand Valley State University"
-    ],
-    "authors": [
-        {
-            "name": "Yifei Cheng"
-        },
-        {
-            "name": "Haoyu Li",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Vegetation Health Classification for Low-Data and Edge Hardware Deployment"
+  "affiliations": [
+    "Grand Valley State University"
+  ],
+  "authors": [
+    {
+      "name": "Yifei Cheng"
+    },
+    {
+      "name": "Haoyu Li",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Vegetation Health Classification for Low-Data and Edge Hardware Deployment",
+  "abstract": "Drone-based vegetation health monitoring typically relies on deep learning or kernel-based methods, requiring large annotated datasets, GPU hardware, and long retraining cycles when new data is added. These constraints make them difficult to work with for consumer drones and low-power field hardware used by independent practitioners for environmental monitoring. This study aims to create a lightweight, interpretable pipeline to classify vegetation imagery for drone monitoring. Our method is based on 2D hue-saturation histograms compared against class archetypes using Earth Mover's Distance or a custom Quadratic Form Distance (QFD) variant optimized in C++ for memory-constrained hardware. To test the effectiveness of these pipelines, we evaluated against 3 other baselines: a Siamese network, Random Forest, and SVM, across four data regimes. The test results reveal our pipelines achieve competitive or superior Top-1 accuracy under limited labeled-data scenarios while remaining fast, interpretable, and easily updatable through simple reaggregation. The QFD variant deployed on an ESP32 achieves 82.8\\% accuracy at just $\\sim$1.01\\% heap utilization (45,136 bytes), demonstrating that histogram-based methods can match or exceed neural few-shot approaches in limited labeled-data scenarios and low compute power settings."
 }

@@ -1,21 +1,22 @@
 {
-    "affiliations": [
-        "Universität Bonn",
-        "Commonwealth Scientific and Industrial Research Organisation"
-    ],
-    "authors": [
-        {
-            "name": "Maohui Li",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Michael Allan Halstead",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Chris McCool",
-            "affiliation_index": 1
-        }
-    ],
-    "title": "Token Reduction for Efficient Video Instance Segmentation with Transformers"
+  "affiliations": [
+    "Universität Bonn",
+    "Commonwealth Scientific and Industrial Research Organisation"
+  ],
+  "authors": [
+    {
+      "name": "Maohui Li",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Michael Allan Halstead",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Chris McCool",
+      "affiliation_index": 1
+    }
+  ],
+  "title": "Token Reduction for Efficient Video Instance Segmentation with Transformers",
+  "abstract": "Video instance segmentation (VIS) provides detailed per-pixel scene understanding information across a temporal sequence. This temporally consistent segmentation is crucial for real-world applications such as robotic applications.\nHowever, state-of-the-art approaches are computationally expensive and reducing this computational burden while maintaining high accuracy is critical for enabling their deployment on robots.\nIn this paper, we propose a novel and efficient token reduction approach for VIS which estimates the relevance of tokens in low-resolution feature layers and then maps this to higher level feature layers.\nTo be computationally efficient, we evaluate token uniqueness and assign scores at the lowest feature layer.\nIf a token is considered unique enough, we designate it as a \\textit{reserved token} and then map it to the higher resolutions; this allows us to trade off reduced latency against performance. %in the attention process, with ranging impact on the average precision (AP) of the network.\nWe evaluate our approach on a complex real-world agricultural robotics dataset (BUP-ST20) as well as two common VIS datasets YouTube-VIS (YTVIS) 2019 and 2022.\nOn the BUP-ST20 with ResNet we are able to reduce inference time by 11\\% and 20\\% with an absolute degradation in performance of only 0.8 and 3.6 in AP for pruning ratios of 30% and 50%, respectively.  \nOn the most difficult YouTube-VIS dataset, YTVIS 2022, we show that for the ResNet model we are able to reduce inference time by 18% with an absolute degradation in performance of 4.1 AP. \nTo the best of our knowledge, this is the first work to propose token reduction for video instance segmentation with transformer-based models."
 }

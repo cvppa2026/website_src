@@ -1,24 +1,25 @@
 {
-    "affiliations": [
-        "University of Nottingham"
-    ],
-    "authors": [
-        {
-            "name": "Amber Swarbrick",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Craig John Sturrock",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Shreyank N Gowda",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Michael P. Pound",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Directional Priors for Volumetric Root Segmentation"
+  "affiliations": [
+    "University of Nottingham"
+  ],
+  "authors": [
+    {
+      "name": "Amber Swarbrick",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Craig John Sturrock",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Shreyank N Gowda",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Michael P. Pound",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Directional Priors for Volumetric Root Segmentation",
+  "abstract": "Plant root systems exhibit strong directional growth patterns that can be non-destructively measured by X-ray CT imaging, but the scale of the resulting high-resolution volumes makes segmentation challenging. We propose representing these directional priors as dense vector fields encoding local root growth direction, and incorporate them into a cascaded 3D U-Net architecture. The first stage jointly predicts a binary segmentation mask and a dense vector field; the second stage then refines this segmentation by conditioning on the predicted field, achieving state-of-the-art accuracy on our new benchmark dataset. Incorporating the predicted vector fields to guide patch traversal at inference also increases efficiency, maintaining 99.63\\% ground-truth coverage while visiting only 13.44\\% of the volume, promoting accurate and efficient root phenotyping at scale. All code and our new dataset are publicly available."
 }

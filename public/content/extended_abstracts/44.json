@@ -1,16 +1,17 @@
 {
-    "affiliations": [
-        "University of Missouri"
-    ],
-    "authors": [
-        {
-            "name": "Ramy Farag",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Guilherme N. DeSouza",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Adaptive Deformable Features for Leaf Vein Segmentation"
+  "affiliations": [
+    "University of Missouri"
+  ],
+  "authors": [
+    {
+      "name": "Ramy Farag",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Guilherme N. DeSouza",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Adaptive Deformable Features for Leaf Vein Segmentation",
+  "abstract": "Extracting traits from plant leaves (e.g. vein architecture) is important for genotype and phenotype studies. However, leaf vein segmentation remains challenging due to the randomness, structural complexity, and high morphological diversity across cultivars, where veins are often difficult to distinguish even from the surrounding lamina. To address this problem, we propose AdaptNet, a decoder architecture built upon a novel adaptive feature extraction module that captures global context, fine local details, as well as subpixel vein structures through both deformable and atrous convolutional layers. Unlike conventional decoders with consistent layer widths at every stage, our decoder dynamically adapts layer widths via neural architecture search, enabling dataset specific optimization of semantic and localization features across decoding stages. We evaluate AdaptNet on three leaf vein segmentation benchmarks, achieving top performance with an mIoU of 82.46\\%, while using nearly half the number of parameters in baselines using a conventional DenseNet161-based U-Net. Notably, even when using a relatively old DenseNet161 encoder, AdaptNet surpasses modern transformer-based segmentation models, including DPT with DINOv2 and DINOv3 encoders, as well as, recent ConvNet architectures such as ConvNeXt-based UPerNet. Our results demonstrate the effectiveness of our adaptive decoder design for fine-grained vein segmentation across diverse plant cultivars."
 }

@@ -42,6 +42,7 @@ function parsePapersFromGlob(
         videoUrl: typeof data.video === "string" ? data.video : (typeof data.videoUrl === "string" ? (data.videoUrl as string) : undefined),
         supplementaryUrl: typeof data.supplementary === "string" ? data.supplementary : (typeof data.supplementaryUrl === "string" ? (data.supplementaryUrl as string) : undefined),
         datasetUrl: typeof data.dataset === "string" ? data.dataset : (typeof data.datasetUrl === "string" ? (data.datasetUrl as string) : undefined),
+        abstract: typeof data.abstract === "string" ? data.abstract : undefined,
       };
     })
     .sort((a, b) => a.id - b.id);

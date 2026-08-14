@@ -1,16 +1,17 @@
 {
-    "affiliations": [
-        "Technical University of Denmark"
-    ],
-    "authors": [
-        {
-            "name": "Carla Salazar",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Lazaros Nalpantidis",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Scale Matters: Adaptive Granularity Selection for Cross-Species 3D Plant Organ Segmentation"
+  "affiliations": [
+    "Technical University of Denmark"
+  ],
+  "authors": [
+    {
+      "name": "Carla Salazar",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Lazaros Nalpantidis",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Scale Matters: Adaptive Granularity Selection for Cross-Species 3D Plant Organ Segmentation",
+  "abstract": "Recent 3D foundation models provide powerful feature representations for point cloud learning by controlling spatial granularity. However, relying on a fixed spatial granularity severely limits generalization in applications like plant phenotyping, where organ morphology and size vary substantially across species and growth stages. To address this, we propose AGS-PlantSeg, a few-shot 3D plant organ segmentation method that leverages the frozen Utonia foundation model combined with Adaptive Granularity Selection. By dynamically selecting the best granularity levels for each specific plant model, our method extracts optimized geometric features for a lightweight MLP segmentation head. Extensive experiments across PLANesT-3D, Pheno4D, and Crops3D demonstrate that AGS-PlantSeg significantly improves cross-species generalization, achieving 88.9% average mIoU performance and outperforming fixed-granularity baselines by 2.5 mIoU points. Despite requiring minimal annotated data, our approach is highly competitive with fully supervised, plant-specific architectures. Code and models will be made publicly available."
 }

@@ -1,56 +1,60 @@
 {
-    "affiliations": [
-        "King Abdullah University of Science and Technology",
-        "University of Calgary",
-        "Kiel University",
-        "Adam Mickiewicz University",
-        "Polytechnic Institute of Turin"
-    ],
-    "authors": [
-        {
-            "name": "Samy Mounir",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Mikolaj Cieslak",
-            "affiliation_index": [0,1]
-        },
-        {
-            "name": "Najmeddine Dhieb",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Hakim Ghazzai",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Jonathan Klein",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Katja Froehlich",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Soren Pirk",
-            "affiliation_index": 2
-        },
-        {
-            "name": "Wojtek Palubicki",
-            "affiliation_index": 3
-        },
-        {
-            "name": "Gianluca Setti",
-            "affiliation_index": 4
-        },
-        {
-            "name": "Ahmed M. Eltawil",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Dominik Michels",
-            "affiliation_index": 0
-        }
-    ],
-    "title": "Text-Conditioned Segmentation for Tomato Phenotyping via Procedural Synthetic Data"
+  "affiliations": [
+    "King Abdullah University of Science and Technology",
+    "University of Calgary",
+    "Kiel University",
+    "Adam Mickiewicz University",
+    "Polytechnic Institute of Turin"
+  ],
+  "authors": [
+    {
+      "name": "Samy Mounir",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Mikolaj Cieslak",
+      "affiliation_index": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Najmeddine Dhieb",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Hakim Ghazzai",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Jonathan Klein",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Katja Froehlich",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Soren Pirk",
+      "affiliation_index": 2
+    },
+    {
+      "name": "Wojtek Palubicki",
+      "affiliation_index": 3
+    },
+    {
+      "name": "Gianluca Setti",
+      "affiliation_index": 4
+    },
+    {
+      "name": "Ahmed M. Eltawil",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Dominik Michels",
+      "affiliation_index": 0
+    }
+  ],
+  "title": "Text-Conditioned Segmentation for Tomato Phenotyping via Procedural Synthetic Data",
+  "abstract": "Vision-based automation is an excellent candidate for reducing manual labor in greenhouse crop production and phenotyping. However, progress is constrained by the lack of annotated training data. Recent advances in vision-based foundation models have shown promising results in zero-shot generalization to novel domains, but their performance drops in complex agricultural environments. In this work, we present a sim-to-real framework for tomato plant segmentation that combines synthetic data generation with fine-tuning of a foundation model. We model a commercial cherry tomato greenhouse and use it to generate a large-scale synthetic dataset under diverse viewpoints, lighting conditions, and plant morphology. Subsequently, we fine-tune the Segment Anything Model 3 (SAM 3) on the synthetic dataset, specializing its text-conditioned segmentation behavior for greenhouse crop organs while retaining the general visual prior that makes zero-shot transfer possible. By evaluating our framework on multiple real-world greenhouse datasets, we demonstrate that combining synthetic data with SAM 3 fine-tuning significantly improves segmentation performance and model confidence. To support community benchmarking, we publicly release the procedural model, the generated synthetic dataset, and our fine-tuned SAM 3 weights."
 }

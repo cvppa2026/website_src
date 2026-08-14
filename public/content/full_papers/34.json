@@ -1,19 +1,20 @@
 {
-    "affiliations": [
-        "Fraunhofer IIS"
-    ],
-    "authors": [
-        {
-            "name": "Andreas Gilson",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Peter Pietrzyk",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Laura Hennig"
-        }
-    ],
-    "title": "Zero-Shot 3D Plant Organ Segmentation with SAM3 and Semantic NeRFs"
+  "affiliations": [
+    "Fraunhofer IIS"
+  ],
+  "authors": [
+    {
+      "name": "Andreas Gilson",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Peter Pietrzyk",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Laura Hennig"
+    }
+  ],
+  "title": "Zero-Shot 3D Plant Organ Segmentation with SAM3 and Semantic NeRFs",
+  "abstract": "Accurate 3D plant organ segmentation is fundamental to automated phenotyping. Existing approaches rely on annotated training data or species-specific model configurations. We present an annotation-free pipeline for 3D plant organ segmentation, combining text-prompted SAM3 segmentation with semantic neural radiance fields (NeRFs). Given only multi-view RGB images and a list of class names, our zero-shot pipeline produces semantically labeled 3D point clouds without manual annotation, per-species fine-tuning, or domain-specific preprocessing. Multi-view NeRF fusion acts as effective implicit consensus mechanism that lifts imperfect per-frame masks into accurate 3D labels. On a controlled Begonia maculata testbed the SAM3 pipeline achieves 92.6% mIoU, reaching 95.9% of the oracle upper bound established with perfect ground-truth masks. The pipeline was further evaluated on a new dataset spanning ten diverse plant point clouds reaching an average 0.856 +/- 0.097 mIoU, with leaf and pot IoU above 0.91 and 0.90 for every species, respectively. These results demonstrate that annotation-free 3D plant organ segmentation is now feasible and approaching the range of supervised methods."
 }

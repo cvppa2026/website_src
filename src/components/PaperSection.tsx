@@ -1,5 +1,11 @@
-import React from "react";
-import { FileText, Download, Video, Paperclip, Database, ExternalLink } from "lucide-react";
+import React, { useState } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
+import remarkBreaks from "remark-breaks";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css";
+import { FileText, Download, Video, Paperclip, Database, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
 import { AuthorTooltip, type Author } from "./AuthorTooltip";
 
 export interface Paper {
@@ -15,6 +21,7 @@ export interface Paper {
   supplementary?: string;
   datasetUrl?: string;
   dataset?: string;
+  abstract?: string;
 }
 
 interface PaperSectionProps {
@@ -22,6 +29,77 @@ interface PaperSectionProps {
   title: string;
   description?: string;
   papers: Paper[];
+}
+
+function getFirst10Words(text: string): { first10: string; fullText: string; hasMore: boolean; wordCount: number } {
+  if (!text) return { first10: "", fullText: "", hasMore: false, wordCount: 0 };
+
+  const cleanText = text.trim();
+  const words = cleanText.split(/\s+/);
+
+  if (words.length <= 10) {
+    return {
+      first10: cleanText,
+      fullText: cleanText,
+      hasMore: false,
+      wordCount: words.length,
+    };
+  }
+
+  const first10 = words.slice(0, 10).join(" ");
+  return {
+    first10,
+    fullText: cleanText,
+    hasMore: true,
+    wordCount: words.length,
+  };
+}
+
+interface AbstractBoxProps {
+  abstract: string;
+}
+
+function AbstractBox({ abstract }: AbstractBoxProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const { first10, fullText, hasMore, wordCount } = getFirst10Words(abstract);
+
+  const contentToRender = hasMore && !isExpanded ? first10 + "…" : fullText;
+
+  return (
+    <div className="mt-3 p-3.5 md:p-4 bg-slate-50 dark:bg-slate-900/60 rounded-xl border border-slate-200 dark:border-slate-800 transition-all duration-200">
+      <div className="flex items-center justify-between mb-2">
+        <span className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 flex items-center gap-1.5">
+          <FileText className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
+          Abstract
+        </span>
+      </div>
+
+      <div className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-normal prose prose-slate dark:prose-invert max-w-none prose-p:my-1 prose-p:leading-relaxed">
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm, remarkMath, remarkBreaks]}
+          rehypePlugins={[rehypeKatex]}
+        >
+          {contentToRender}
+        </ReactMarkdown>
+      </div>
+
+      {hasMore && (
+        <button
+          type="button"
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="mt-2.5 inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors focus:outline-none cursor-pointer"
+          aria-expanded={isExpanded}
+        >
+          <span>{isExpanded ? "Show less" : "Show full abstract"}</span>
+          {isExpanded ? (
+            <ChevronUp className="w-3.5 h-3.5" />
+          ) : (
+            <ChevronDown className="w-3.5 h-3.5" />
+          )}
+        </button>
+      )}
+    </div>
+  );
 }
 
 function formatAssetUrl(url?: string): string | undefined {
@@ -154,6 +232,10 @@ export function PaperSection({ id, title, description, papers }: PaperSectionPro
                 <h3 className="text-base md:text-lg font-bold text-slate-900 dark:text-slate-100 leading-snug">
                   {paper.title}
                 </h3>
+
+                {paper.abstract && paper.abstract.trim().length > 0 && (
+                  <AbstractBox abstract={paper.abstract} />
+                )}
               </div>
             </div>
           );

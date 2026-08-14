@@ -6,7 +6,7 @@ import openreview
 # --------------------------------------------------
 # Configuration
 # --------------------------------------------------
-VENUE_ID = "ECCV/2026/Workshop/CVPPA"   # Change this
+VENUE_ID = "thecvf.com/ECCV/2026/Workshop/CVPPA"   # Change this
 BASE_PATH = Path("./public/content") # Change this
 
 # --------------------------------------------------
@@ -16,7 +16,7 @@ username = input("OpenReview username: ")
 password = getpass.getpass("Password: ")
 
 client = openreview.api.OpenReviewClient(
-    baseurl="https://api.openreview.net",
+    baseurl="https://api2.openreview.net",
     username=username,
     password=password,
 )
@@ -31,8 +31,7 @@ print(f"Indexed {len(json_index)} JSON files.")
 # --------------------------------------------------
 # Retrieve submissions
 # --------------------------------------------------
-submissions = openreview.tools.iterget_notes(
-    client,
+submissions = client.get_all_notes(
     invitation=f"{VENUE_ID}/-/Submission",
     details="directReplies",
 )
@@ -44,9 +43,10 @@ for paper in submissions:
     decision = None
 
     for reply in paper.details["directReplies"]:
-        if reply["invitation"].endswith("/-/Decision"):
+        if reply["invitations"][0].endswith("/-/Decision"):
             decision = reply["content"]["decision"]["value"]
             break
+
 
     if not (decision and decision.lower().startswith("accept")):
         continue

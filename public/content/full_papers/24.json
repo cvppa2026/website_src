@@ -1,27 +1,28 @@
 {
-    "affiliations": [
-        "Polytechnic Institute of Turin",
-        "University of Roma \"La Sapienza\"",
-        "DeepPlants srl"
-    ],
-    "authors": [
-        {
-            "name": "Alessandro Russo",
-            "affiliation_index": 0
-        },
-        {
-            "name": "Stefano D'Arrigo",
-            "affiliation_index": 1
-        },
-        {
-            "name": "Flavio Storino",
-            "affiliation_index": 2
-        },
-        {
-            "name": "Fiora Pirri",
-            "affiliation_index": 2
-        }
-    ],
-    "title": "A multi-task methodology for detecting all stresses on closely observed plants",
-    "dataset": "https://github.com/deepplants/deBary-dataset"
+  "affiliations": [
+    "Polytechnic Institute of Turin",
+    "University of Roma \"La Sapienza\"",
+    "DeepPlants srl"
+  ],
+  "authors": [
+    {
+      "name": "Alessandro Russo",
+      "affiliation_index": 0
+    },
+    {
+      "name": "Stefano D'Arrigo",
+      "affiliation_index": 1
+    },
+    {
+      "name": "Flavio Storino",
+      "affiliation_index": 2
+    },
+    {
+      "name": "Fiora Pirri",
+      "affiliation_index": 2
+    }
+  ],
+  "title": "A multi-task methodology for detecting all stresses on closely observed plants",
+  "dataset": "https://github.com/deepplants/deBary-dataset",
+  "abstract": "Stressors on edible plants often arise together due to shared causes, yet this critical interaction is frequently overlooked in deep learning research on plant disease detection. To address this significant gap, we propose an innovative multitask deep learning framework that\neffectively models an ensemble of conditions for stressor detection. By integrating meteorological data, plant species information, and multiple observations of viruses, bacteria, fungi, and pests, we leverage high-resolution images from our newly developed and proposed dataset, DeBary, to enhance our understanding and detection capabilities."
 }
