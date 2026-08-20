@@ -6,6 +6,8 @@ interface Speaker {
   name: string;
   image: string;
   bio: string;
+  talkTitle?: string;
+  talkAbstract?: string;
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -57,7 +59,7 @@ export function SpeakersPage() {
               className="w-[250px] h-[250px] rounded-full object-cover ring-4 ring-slate-200 dark:ring-slate-700"
             />
 
-            <div className="w-full">
+            <div className="w-full flex flex-col flex-1">
               <h2 className="text-xl md:text-2xl font-bold text-slate-900 dark:text-slate-100 mb-3 text-center">
                 {speaker.name}
               </h2>
@@ -81,6 +83,22 @@ export function SpeakersPage() {
                   {speaker.bio}
                 </ReactMarkdown>
               </div>
+
+              {speaker.talkTitle && (
+                <div className="mt-5 pt-4 border-t border-slate-200 dark:border-slate-800">
+                  <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">
+                    Keynote Talk
+                  </h3>
+                  <p className="text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">
+                    {speaker.talkTitle}
+                  </p>
+                  {speaker.talkAbstract && (
+                    <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed italic">
+                      {speaker.talkAbstract}
+                    </p>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         ))}

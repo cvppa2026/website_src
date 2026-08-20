@@ -2,7 +2,9 @@
     {
         "name": "Fumio Okura",
         "image": "/images/speakers/fumio_okura.jpeg",
-        "bio": "[Fumio Okura](https://fokura.jp) is an Associate Professor at the University of Osaka (Japan). He received his M.Sc. and Ph.D. in engineering from the Nara Institute of Science and Technology in 2011 and 2014, respectively. His research lies at the intersection of computer vision and computer graphics, with recent work focusing on plant phenotyping. He has received several awards, including the IPSJ/IEEE Computer Society Young Computer Researcher Award."
+        "bio": "[Fumio Okura](https://fokura.jp) is an Associate Professor at the University of Osaka (Japan). He received his M.Sc. and Ph.D. in engineering from the Nara Institute of Science and Technology in 2011 and 2014, respectively. His research lies at the intersection of computer vision and computer graphics, with recent work focusing on plant phenotyping. He has received several awards, including the IPSJ/IEEE Computer Society Young Computer Researcher Award.",
+        "talkTitle": "Plant Phenotyping as a Frontier for Computer Vision",
+        "talkAbstract": "Plant phenotyping (PP) poses a range of challenging computer vision (CV) problems, which cannot be fully addressed by simply applying existing CV techniques. In this talk, I will present several case studies from my own research experience, illustrating how problems arising from PP can be formulated as CV problems and developed into contributions to the CV community."
     },
     {
         "name": "Susie Robinson",
