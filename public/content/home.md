@@ -2,7 +2,7 @@
 
 This workshop will showcase the challenges raised by working on computer vision for plant phenotyping and agriculture. Workshop goals include demonstrating the state-of-the-art, identifying key unsolved problems, and introducing computer scientists with an interest in plant phenotyping to the field. Effective plant phenotyping is urgently needed to support the sustainability of our planet and its inhabitants: having strong community structures and computer vision scientists enter this field is more crucial now than ever.
 
-The workshop will be held in conjunction with the [European Conference on Computer Vision (ECCV) 2026](https://eccv.ecva.net/Conferences/2026). For more information regarding the venue, please go to the [Programme page](/programme).
+The workshop will be held in conjunction with the [European Conference on Computer Vision (ECCV) 2026](https://eccv.ecva.net/Conferences/2026) in **Malmömässan E2**. For more information regarding the venue, please go to the [Programme page](/programme).
 
 <div class="not-prose flex my-10">
   <a href="/proceedings" class="inline-flex items-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white font-semibold py-2.5 px-5 rounded-lg shadow-sm transition-colors">
@@ -23,7 +23,7 @@ We recommend to register to the conference timely to avoid delays.
 
 > **20th July 2026**
 >
-> The [workshop programme](/programme) has now been updated. It includes the latest schedule, confirmed sessions, and other planned activities. At the moment, we do not have a room assignment and we will let you know as soon as we will be made aware of it.
+> The [workshop programme](/programme) has now been updated. It includes the latest schedule, confirmed sessions, and other planned activities.
 
 > **1st June 2026**
 >

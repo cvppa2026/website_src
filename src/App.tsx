@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar';
 import { MarkdownViewer } from './components/MarkdownViewer';
 import { SpeakersPage } from './components/SpeakersPage';
 import { ProceedingsPage } from './components/ProceedingsPage';
+import { ProgrammePage } from './components/ProgrammePage';
 
 function App() {
   const location = useLocation();
@@ -17,7 +18,7 @@ function App() {
             <Route path="/organisers" element={<MarkdownViewer filename="organisers.md" />} />
             <Route path="/proceedings" element={<ProceedingsPage />} />
             <Route path="/CfP" element={<MarkdownViewer filename="cfp.md" showToc />} />
-            <Route path="/programme" element={<MarkdownViewer filename="programme.md" />} />
+            <Route path="/programme" element={<ProgrammePage />} />
             <Route path="/speakers" element={<SpeakersPage />} />
             <Route path="/challenges" element={<MarkdownViewer filename="challenges.md" showToc />} />
           </Routes>
