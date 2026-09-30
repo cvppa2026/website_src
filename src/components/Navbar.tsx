@@ -15,6 +15,7 @@ const navLinks = [
   { name: "Programme", path: "/programme" },
   { name: "Speakers", path: "/speakers" },
   { name: "Challenges", path: "/challenges" },
+  { name: "Photos", path: "/photos" },
 ];
 
 export function Navbar() {

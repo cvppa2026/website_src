@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
@@ -6,6 +7,7 @@ import remarkBreaks from "remark-breaks";
 import rehypeRaw from "rehype-raw";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
+import { HomeSlideshow } from "./HomeSlideshow";
 
 interface MarkdownViewerProps {
   filename: string;
@@ -132,7 +134,34 @@ export function MarkdownViewer({ filename, showToc = false }: MarkdownViewerProp
           ul: ({ node, ...props }) => <ul className="list-disc pl-6 mb-6 space-y-2 text-slate-700 dark:text-slate-300" {...props} />,
           ol: ({ node, ...props }) => <ol className="list-decimal pl-6 mb-6 space-y-2 text-slate-700 dark:text-slate-300" {...props} />,
           li: ({ node, ...props }) => <li className="pl-2" {...props} />,
-          a: ({ node, ...props }) => <a className="font-medium text-blue-600 active:text-blue-500 dark:text-blue-400 transition-colors" {...props} />,
+          a: ({ node, href, children, ...props }: any) => {
+            if (href && href.startsWith("/") && !href.startsWith("//")) {
+              return (
+                <Link
+                  to={href}
+                  className="font-medium text-blue-600 active:text-blue-500 dark:text-blue-400 hover:text-blue-500 dark:hover:text-blue-300 transition-colors"
+                  {...props}
+                >
+                  {children}
+                </Link>
+              );
+            }
+            return (
+              <a
+                href={href}
+                className="font-medium text-blue-600 active:text-blue-500 dark:text-blue-400 transition-colors"
+                {...props}
+              >
+                {children}
+              </a>
+            );
+          },
+          div: ({ node, className, children, ...props }: any) => {
+            if (className?.includes("workshop-slideshow")) {
+              return <HomeSlideshow />;
+            }
+            return <div className={className} {...props}>{children}</div>;
+          },
           img: ({ node, ...props }) => <img className="rounded-xl my-6 inline-block" {...props} />,
           blockquote: ({ node, ...props }) => <blockquote className="border-l-4 border-blue-500 pl-4 py-1 italic bg-slate-50 dark:bg-slate-900/50 rounded-r-lg my-6" {...props} />,
 

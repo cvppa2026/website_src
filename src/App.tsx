@@ -4,6 +4,7 @@ import { MarkdownViewer } from './components/MarkdownViewer';
 import { SpeakersPage } from './components/SpeakersPage';
 import { ProceedingsPage } from './components/ProceedingsPage';
 import { ProgrammePage } from './components/ProgrammePage';
+import { PhotosPage } from './components/PhotosPage';
 
 function App() {
   const location = useLocation();
@@ -21,6 +22,7 @@ function App() {
             <Route path="/programme" element={<ProgrammePage />} />
             <Route path="/speakers" element={<SpeakersPage />} />
             <Route path="/challenges" element={<MarkdownViewer filename="challenges.md" showToc />} />
+            <Route path="/photos" element={<PhotosPage />} />
           </Routes>
         </div>
       </main>

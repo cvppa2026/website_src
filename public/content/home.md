@@ -10,12 +10,17 @@ The workshop will be held in conjunction with the [European Conference on Comput
   </a>
 </div>
 
+<div class="workshop-slideshow"></div>
 
 We recommend to register to the conference timely to avoid delays.
 
 <img src="http://media.eventhosts.cc/Conferences/ECCV2026/ECCV_2026_Logo.svg" alt="ECCV 2026 Logo" title="ECCV 2026" height="150px;">
 
 ## Updates
+
+> **30th September 2026**
+>
+> The workshop was a great success! Thank you to everyone who participated, presented, and joined our discussions. You can view pictures from the event in our [Photos gallery](/photos).
 
 > **5th August 2026**
 >
