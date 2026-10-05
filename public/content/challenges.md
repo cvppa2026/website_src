@@ -33,9 +33,8 @@ The challenge dataset consists of 15k annotated instances of 1920x1080 RGB video
 
 | Place | Authors | Technical Report |
 | :---: | :--- | :---: |
-| 🥇 1 | Kim et al., Ulsan National Institute of Science and Technology | [Report](/content/reports/1st_place_Kim_et_al.pdf) |
-| 🥈 2 | Yoon et al., IK Lab | |
-| 🥉 3 | Velesaca Lara et al., University of Granada | |
+| 🥇 1 | Junsu Kim & Seungryul Baek, Ulsan National Institute of Science and Technology (South Korea) | [Report](/content/reports/1st_place_Kim_et_al.pdf) |
+| 🥈 2 | Henry Oswaldo Velesaca Lara & Alice Vanessa Gomez Cantos,  Escuela Superior Politécnica del Litoral (Ecuador) | |
 
 <div class="not-prose flex my-10">
   <a href="https://www.codabench.org/competitions/16441/" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded">
